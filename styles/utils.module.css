@@ -1,0 +1,21 @@
+@keyframes blinkCursor {
+	0% {
+        color:transparent;
+    }
+	50% {
+        color:#ebf5ee;
+	}
+	100% {
+        color:transparent;
+	}
+}
+
+.blink {
+    animation: blinkCursor 1s ease-in-out infinite;
+    font-weight: 800;
+}
+
+.highlight {
+        font-weight: 600;
+        color: #28965a;
+}

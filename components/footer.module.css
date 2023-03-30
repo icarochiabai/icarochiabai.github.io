@@ -1,0 +1,39 @@
+.box *::selection {
+    background-color: #231f20;
+}
+
+.box {
+    width: 100%;
+    
+    display: flex;
+    background-color: #bb4430;    
+}
+
+.left {
+    flex: 2 1 auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right * {
+    margin: 0;
+    padding: 0;
+}
+
+.right {
+    flex: 1 0 8rem;
+    gap: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    
+    overflow: scroll;
+}
+
+.right h4 {
+    text-align: center;
+}

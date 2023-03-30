@@ -1,0 +1,17 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: #bb4430;
+    
+    transition: visibility 0.4s, opacity 0.4s linear;
+}
+
+.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+}

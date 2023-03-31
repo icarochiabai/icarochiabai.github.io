@@ -30,20 +30,19 @@ class PerlinNoise extends Component {
 
         this.sketch = new p5( p => {
             p.setup = ()  => {
-              let contentDiv = document.getElementById("content")
-              p.frameRate(30);
-              let canvas = p.createCanvas(contentDiv.clientWidth, contentDiv.clientHeight);
-              canvas.style('z-index', '-1')
-              canvas.position(0, 0)
-              cols = p.floor(p.width / scl);
-              rows = p.floor(p.height / scl);
-                
-              fr = p.createP('');
+              if(!this._Mounted){
+                let contentDiv = document.getElementById("content")
+                p.frameRate(30);
+                let canvas = p.createCanvas(contentDiv.clientWidth, contentDiv.clientHeight);
+                canvas.style('z-index', '-1')
+                canvas.position(0, 0)
+                cols = p.floor(p.width / scl);
+                rows = p.floor(p.height / scl);
+                flowfield = new Array(cols * rows);
 
-              flowfield = new Array(cols * rows);
-
-              for (var i = 0; i < 1000; i++) {
-                particles[i] = new Particle(p);
+                for (var i = 0; i < 1000; i++) {
+                  particles[i] = new Particle(p, contentDiv.clientWidth, contentDiv.clientHeight);
+                }
               }
             }
 
@@ -54,6 +53,9 @@ class PerlinNoise extends Component {
                 canvas.position(0, 0)
                 p.clear()
                 iterations = 0
+                for (var i = 0; i < 1000; i++) {
+                  particles[i] = new Particle(p, contentDiv.clientWidth, contentDiv.clientHeight);
+                }
             }
 
             p.draw = () => {

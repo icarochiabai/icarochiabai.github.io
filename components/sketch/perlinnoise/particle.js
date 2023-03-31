@@ -4,9 +4,11 @@
 // Code for: https://youtu.be/BjoM9oKOAKY
 
 class Particle {
-  constructor(p5) {
+  constructor(p5, w, h) {
     this.p = p5;
-    this.pos = this.p.createVector(this.p.random(this.p.width), this.p.random(this.p.height));
+    this.w = w;
+    this.h = h;
+    this.pos = this.p.createVector(this.p.random(this.w), this.p.random(this.h));
     this.vel = this.p.createVector(0, 0);
     this.acc = this.p.createVector(0, 0);
     this.maxspeed = 4;
@@ -46,20 +48,20 @@ class Particle {
   }
 
   edges() {
-    if (this.pos.x > this.p.width) {
+    if (this.pos.x > this.w) {
       this.pos.x = 0;
       this.updatePrev();
     }
     if (this.pos.x < 0) {
-      this.pos.x = this.p.width;
+      this.pos.x = this.w;
       this.updatePrev();
     }
-    if (this.pos.y > this.p.height) {
+    if (this.pos.y > this.h) {
       this.pos.y = 0;
       this.updatePrev();
     }
     if (this.pos.y < 0) {
-      this.pos.y = this.p.height;
+      this.pos.y = this.h;
       this.updatePrev();
     }
 

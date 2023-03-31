@@ -7,8 +7,9 @@ import Fractal from '../components/sketch/fractal'
 import Footer from '../components/footer'
 import About from './about'
 import Projects from './projects'
-import PerlinNoise from '@/components/sketch/perlinnoise/perlinnoise'
+import PerlinNoise from '@/components/sketch/perlinnoise/perlinnoise'  
 
+        
 export default function Home() {
   return (
     <>
@@ -18,10 +19,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <PerlinNoise />
       <main className={styles.box}>
           <About />
           <Projects />
-          <PerlinNoise />
+          <About />
+          <Projects />
       </main>
     </>
   )

@@ -26,7 +26,7 @@ export default function About() {
             <ul>
               <li><i className="fa-solid fa-people-group"></i> Membro do <Link target="_blank" href="https://lkcamp.dev">LKCamp</Link></li>
               <li><i className="fa-solid fa-music"></i> <Link href="https://open.spotify.com/track/1BCkFsuH6Mgk7tLWan97C3?si=374dd884f2994c5b" target="_blank">Nuvens Tóxicas</Link></li>
-              <li><i className="fa-brands fa-github"></i> <Link href="https://github.com/icarochiabai/personal-website" target="_blank">Este site</Link></li>
+              <li><i className="fa-brands fa-github"></i> <Link href="https://github.com/icarochiabai/icarochiabai.github.io" target="_blank">Este site</Link></li>
             </ul>
           </div>
         </div>

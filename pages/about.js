@@ -19,14 +19,14 @@ export default function About() {
           <h1><span className={utilStyles.highlight}>Ícaro</span> Chiabai</h1>
           <div className={styles.listBox}>
             <ul>
-              <li><i class="fa-solid fa-graduation-cap"></i> Engenharia de Computação</li>
-              <li><i class="fa-solid fa-microscope"></i> Biotecnólogo</li>
-              <li><i class="fa-solid fa-newspaper"></i> Bolsista CNPq</li>
+              <li><i className="fa-solid fa-graduation-cap"></i> Engenharia de Computação</li>
+              <li><i className="fa-solid fa-microscope"></i> Biotecnólogo</li>
+              <li><i className="fa-solid fa-newspaper"></i> Bolsista CNPq</li>
             </ul>
             <ul>
-              <li><i class="fa-solid fa-people-group"></i> Membro do <Link target="_blank" href="https://lkcamp.dev">LKCamp</Link></li>
-              <li><i class="fa-solid fa-music"></i> <Link href="https://open.spotify.com/track/1BCkFsuH6Mgk7tLWan97C3?si=374dd884f2994c5b" target="_blank">Nuvens Tóxicas</Link></li>
-              <li><i class="fa-brands fa-github"></i> <Link href="https://github.com/icarochiabai/personal-website" target="_blank">Este site</Link></li>
+              <li><i className="fa-solid fa-people-group"></i> Membro do <Link target="_blank" href="https://lkcamp.dev">LKCamp</Link></li>
+              <li><i className="fa-solid fa-music"></i> <Link href="https://open.spotify.com/track/1BCkFsuH6Mgk7tLWan97C3?si=374dd884f2994c5b" target="_blank">Nuvens Tóxicas</Link></li>
+              <li><i className="fa-brands fa-github"></i> <Link href="https://github.com/icarochiabai/personal-website" target="_blank">Este site</Link></li>
             </ul>
           </div>
         </div>

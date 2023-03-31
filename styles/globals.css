@@ -4,6 +4,12 @@
     background-color: #bb4430;
 }
 
+:root {
+    --red: #bb4430;
+    --black: #231f20;
+    --white: #ebf5ee;
+}
+
 html, body {
     height: 100%;
     margin: 0;

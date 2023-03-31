@@ -4,6 +4,7 @@
     background-color: #bb4430;
     
     transition: visibility 0.4s, opacity 0.4s linear;
+    z-index: 999;
 }
 
 .show {

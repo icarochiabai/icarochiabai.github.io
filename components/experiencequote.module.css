@@ -1,0 +1,15 @@
+.box * {
+    margin: 0;
+    padding: 0;
+}
+
+.box h2 {
+    color:var(--white);
+}
+
+.box p {
+    margin: 0;
+    padding: 0;
+    color: var(--white);
+    opacity: 0.6;
+}

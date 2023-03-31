@@ -1,0 +1,19 @@
+.box {
+    width: 50%;
+    height: auto;
+    
+    border: 4px solid var(--red);
+}
+
+.box > * {
+    margin: 1rem;
+    padding: 0;
+}
+
+.box h1 {
+    color: var(--red);
+}
+
+.box h1::selection{
+    color: var(--white);
+}

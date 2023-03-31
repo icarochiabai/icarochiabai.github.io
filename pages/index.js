@@ -1,12 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/index.module.css'
-import utilStyles from '../styles/utils.module.css'
-import Image from 'next/image'
-import Link from 'next/link'
-import Fractal from '../components/sketch/fractal'
-import Footer from '../components/footer'
 import About from './about'
-import Projects from './projects'
+import Experience from './experience'
 import PerlinNoise from '@/components/sketch/perlinnoise/perlinnoise'  
 
         
@@ -21,6 +16,7 @@ export default function Home() {
       </Head>
       <main className={styles.box}>
           <About />
+          <Experience />
           <PerlinNoise />
       </main>
     </>

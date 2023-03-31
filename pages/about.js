@@ -7,7 +7,7 @@ export default function About() {
   return (
     <div className={styles.verticalBox}>
       <div className={styles.box}>
-        <div className={`${styles.left}`}>
+        <div className={`${styles.left} ${utilStyles.blur}`}>
           <Image
             alt="my picture" 
             src="/images/profile.jpg"
@@ -15,7 +15,7 @@ export default function About() {
             height={460}
           />
         </div>
-        <div className={`${styles.right} ${utilStyles.contentCard}`}>
+        <div className={`${styles.right} ${utilStyles.blur}`}>
           <h1><span className={utilStyles.highlight}>Ícaro</span> Chiabai</h1>
           <div className={styles.listBox}>
             <ul>
@@ -31,7 +31,7 @@ export default function About() {
           </div>
         </div>
       </div>
-      <div className={styles.under}>
+      <div className={`${styles.under} ${utilStyles.blur}`}>
         <p>
           Sou um programador apaixonado por <span className={utilStyles.highlight}>código criativo</span>, <span className={utilStyles.highlight}>design</span> e <span className={utilStyles.highlight}>software livre</span>. Estou constantemente buscando novas formas de unir minha paixão pela tecnologia com minha curiosidade pela arte e pelo design. Atualmente, estudo <span className={utilStyles.highlight}>Engenharia de Computação</span> na <span className={utilStyles.highlight}>Unicamp</span>, onde tenho a oportunidade de aprimorar minhas habilidades e explorar novas possibilidades dentro do mundo da programação. Além disso, sou um defensor fervoroso do <span className={utilStyles.highlight}>software livre</span>, participo do grupo de estudo de Linux da Unicamp e acredito que a liberdade e a transparência são essenciais para o futuro da tecnologia. Sempre estou em busca de novos desafios e projetos que possam me ajudar a crescer como programador e como pessoa.
         </p>

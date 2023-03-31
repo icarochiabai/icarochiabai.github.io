@@ -1,12 +1,90 @@
-.content {
-    max-width: 34%;
-    min-width: 300px;
+.box {
+    width: 50%;
     height: auto;
+    gap: 1rem;
+
+    display: flex;
+    justify-content: center;
+}
+    
+.box > div {
     padding: 1rem;
+}
+
+.left {
+    height:auto;
+    width: 100%;
+    position: relative;   
+    flex: 0.6;
+
+    border: 4px solid transparent;
+    background-color: rgba(187, 68, 48, 0.6);
+    display: flex;
+}
+
+.left > img {
+    height: auto;
+    width: 100%;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.right {
+    flex: 2;
+    border: 4px solid #bb4430;
+}
+    
+.right h1 {
+    margin: 0;
+    font-size: 4rem;
+}
+    
+.right ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.right i {
+    color: #bb4430;
+}
+
+.verticalBox {
+    width: 100%;
+    height: 100%;
     
     display: flex;
     flex-flow: column;
+    align-items: center;
     
+    gap: 1rem;
+}
+
+.verticalBox .box div, .under {
+    backdrop-filter: blur(16px);
+}
+
+.under {
+    width: 50%;
     border: 4px solid #bb4430;
-    overflow: scroll;
+}
+
+.under p {
+    margin: 1rem 1rem;
+}
+
+.listBox {
+    display: flex;
+}
+
+.listBox ul {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 50%;
+    text-align: left;
+    margin-top: 1rem;
+}
+
+.listBox ul li {
+    margin-bottom: 1rem;
 }

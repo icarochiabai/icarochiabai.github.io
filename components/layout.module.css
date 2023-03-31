@@ -1,7 +1,11 @@
 .box {
     height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .content {
-    height: auto;
+    flex: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }

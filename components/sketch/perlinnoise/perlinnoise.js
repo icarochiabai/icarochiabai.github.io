@@ -16,7 +16,7 @@ class PerlinNoise extends Component {
     componentDidMount(){
         const p5 = require('p5')
         var inc = 0.1;
-        var scl = 10;
+        var scl = 20;
         var cols, rows;
 
         var zoff = 0;
@@ -59,7 +59,7 @@ class PerlinNoise extends Component {
             }
 
             p.draw = () => {
-              if(iterations > 2000) {
+              if(iterations > 1000) {
                 p.noLoop()
               }
               iterations++

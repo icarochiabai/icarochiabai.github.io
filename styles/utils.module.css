@@ -11,11 +11,19 @@
 }
 
 .blink {
-    animation: blinkCursor 1s ease-in-out infinite;
-    font-weight: 800;
+    animation: blinkCursor 2.5s ease-in-out infinite;
+    position: relative;
+    font-size: 72px;
+    font-weight: 200;
+    opacity: 1;
 }
 
 .highlight {
         font-weight: 600;
-        color: #28965a;
+        /* color: #28965a; */
+        color: #bb4430;
+}
+
+.highlight::selection {
+        color: #ebf5ee;
 }

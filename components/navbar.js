@@ -7,7 +7,7 @@ export default function Navbar() {
     let displayHeader = false
     
     const onScroll = () => {
-        if(window.scrollY > 200) {
+        if(window.scrollY > 600) {
             setActive(true)
         } else {
             setActive(false)

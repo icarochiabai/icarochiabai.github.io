@@ -35,7 +35,7 @@ class Particle {
   }
 
   show() {
-    this.p.stroke(187, 68, 48, 20);
+    this.p.stroke(187, 68, 48, 10);
     // this.p.stroke(235, 245, 238, 10);
     this.p.strokeWeight(1);
     this.p.line(this.pos.x, this.pos.y, this.prevPos.x, this.prevPos.y);

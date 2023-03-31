@@ -3,37 +3,19 @@
 }
 
 .box {
-    width: 100%;
+    height: auto;
+    min-height: 64px;
     
     display: flex;
-    background-color: #bb4430;    
-}
-
-.left {
-    flex: 2 1 auto;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.right * {
-    margin: 0;
-    padding: 0;
-}
-
-.right {
-    flex: 1 0 8rem;
-    gap: 1rem;
-
-    display: flex;
-    justify-content: center;
     align-items: center;
     flex-flow: column;
-    
-    overflow: scroll;
+    justify-content: center;
+
+    background-color: #bb4430;    
+    gap: 0.24rem;
 }
 
-.right h4 {
-    text-align: center;
+.box p {
+    margin: 0;
+    opacity: 0.8;
 }

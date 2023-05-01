@@ -1,11 +1,14 @@
 import Head from 'next/head'
-import styles from '../styles/index.module.css'
-import About from './about'
-import Experience from './experience'
-import PerlinNoise from '@/components/sketch/perlinnoise/perlinnoise'  
-
         
 export default function Home() {
+  let resizeTimer;
+  window.addEventListener("resize", () => {
+    document.body.classList.add("resize-animation-stopper");
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(() => {
+      document.body.classList.remove("resize-animation-stopper");
+    }, 400);
+  });
   return (
     <>
       <Head>
@@ -14,10 +17,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.box}>
-          <About />
-          <Experience />
-          <PerlinNoise />
+      <main>
       </main>
     </>
   )

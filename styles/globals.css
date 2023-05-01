@@ -1,57 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-::selection {
-    background-color: #bb4430;
+.resize-animation-stopper * {
+    animation: none !important;
+    transition: none !important;
 }
 
-:root {
-    --red: #bb4430;
-    --black: #231f20;
-    --white: #ebf5ee;
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    margin: 0;
-    text-align: justify;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-block: 0; /* Set top and bottom margin for text elements to 0 */
 }
 
-#__next {
-    height: 100%;
-}
-
+body,
 html {
-  scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;
 }
 
 body {
-    background-color: #231f20;
-    color: #ebf5ee;
+    margin: 0;
     font-family: Rubik;
+    background: var(--clr-black);
 }
 
-.p5Canvas {
-    box-sizing: border-box;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: auto;
-    filter: blur(5px);
-    -webkit-filter: blur(5px);
-    overflow: hidden;
+#__next {
+    width: 100%;
+    height: 100%;
 }
 
-a {
-    color: #bb4430;
-    text-decoration: none;
-    border-bottom: 2px solid transparent;
-    transition: 0.5s linear;
-}
+:root {
+    --hsl-red: 9, 59%, 46%;
+    --clr-red: hsl(var(--hsl-red));
 
-a:hover {
-    border-color: #bb4430;
-}
+    --hsl-black: 345, 6%, 13%;
+    --clr-black: hsl(var(--hsl-black));
 
-a::selection {
-    background-color: #ebf5ee;
+    --hsl-white: 138, 33%, 94%;
+    --clr-white: hsl(var(--hsl-white));
 }

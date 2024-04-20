@@ -1,0 +1,33 @@
+.author-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8rem;
+}
+
+.author-card * {
+  margin: 0;
+}
+
+.author-card-profile {
+  max-height: 144px;
+  max-width: 144px;
+  
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+
+.author-card-name {
+  font-family: 'BigBlueTerminal';
+  font-size: xx-large;
+  color: var(--author-card-name-color);
+
+  margin-bottom: 0.75rem;
+}
+
+.author-card-bio {
+  color: var(--author-card-bio-color);
+  font-weight: 700;
+  font-size: large;
+}

@@ -1,0 +1,29 @@
+<div class="post-card">
+  {{ with .Resources.GetMatch "thumbnail.*" }}
+    <div style="background-image:url({{ .RelPermalink }});" class="post-card-thumbnail">
+      <!-- Image goes here -->
+    </div>
+  {{ else }}
+    {{ with resources.GetMatch "images/thumbnail.*" }}
+      <div style="background-image:url({{ .RelPermalink }});" class="post-card-thumbnail">
+        <!-- Image goes here -->
+      </div>
+    {{ end }}
+  {{ end }}
+
+  <div>
+    <h2 class="post-card-title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    <p class="post-card-info">
+      {{ .Date.Format "02/01/2006" }} · {{ .WordCount }} palavras · {{ .ReadingTime }} minutos
+    </p>
+    {{ with .GetTerms "tags" }}
+      {{ range . }}
+        <p style="display: inline">
+          <span class="post-card-tag-badge">
+            <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+          </span>
+        </p>
+      {{ end }}
+    {{ end }}
+  </div>
+</div>

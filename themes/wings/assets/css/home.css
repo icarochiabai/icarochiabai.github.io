@@ -1,0 +1,5 @@
+.post-cards-label {
+  color: var(--post-cards-label);
+  font-family: 'system-ui';
+  font-weight: 900;
+}

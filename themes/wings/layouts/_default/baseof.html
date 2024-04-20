@@ -3,15 +3,28 @@
 <head>
   {{ partial "head.html" . }}
 </head>
+
 <body>
-  <header>
-    {{ partial "header.html" . }}
-  </header>
-  <main>
-    {{ block "main" . }}{{ end }}
-  </main>
-  <footer>
-    {{ partial "footer.html" . }}
-  </footer>
+  
+  {{ if .IsHome }}
+    {{ with resources.GetMatch "images/background.*" }}
+      <div class="background-container">
+        <div class="background" style="background-image: url({{ .RelPermalink }})">
+        </div>
+      </div>
+    {{ end }}
+  {{ end }}
+
+  <div class="wrapper">
+    <header>
+      {{ partial "header.html" . }}
+    </header>
+    <main>
+      {{ block "main" . }}{{ end }}
+    </main>
+    <footer>
+      {{ partial "footer.html" . }}
+    </footer>
+  </div>
 </body>
 </html>

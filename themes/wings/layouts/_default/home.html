@@ -1,7 +1,11 @@
 {{ define "main" }}
+  {{ partial "author_card.html" . }}
   {{ .Content }}
-  {{ range site.RegularPages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ .Summary }}
-  {{ end }}
+
+  <h2 class="post-cards-label">Recente</h2>
+  <section class="post-cards">
+    {{ range site.RegularPages }}
+      {{ partial "post_card.html" . }}
+    {{ end }}
+  </section>
 {{ end }}

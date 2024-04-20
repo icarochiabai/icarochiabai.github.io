@@ -1,0 +1,10 @@
+header {
+  margin-bottom: 4rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: var(--header-color);
+}
+

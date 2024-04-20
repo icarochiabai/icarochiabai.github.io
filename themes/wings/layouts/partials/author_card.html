@@ -1,0 +1,7 @@
+<div class="author-card">
+  {{ with resources.GetMatch "images/author_profile.*" }}
+    <img class="author-card-profile" src="{{ .RelPermalink }}"/>
+  {{ end }}
+  <h2 class="author-card-name">Ícaro Chiabai</h2>
+  <p class="author-card-bio">Minhas coisas.</p>
+</div>

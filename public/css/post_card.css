@@ -1,18 +1,24 @@
-.post-cards {
+.post-cards[view="horizontal"] {
+  --post-card-border-radius: 0.25rem;
   display: flex;
   flex-direction: column;
 
   gap: 1rem;
 }
 
-.post-card {
+.post-cards[view="horizontal"] .post-card{
   display: flex;
   flex-direction: row;
 
   gap: 1rem;
+  border: 2px solid rgba(128, 128, 128, 0.1);
+  border-radius: var(--post-card-border-radius);
+
+  backdrop-filter: blur(5px);
+  box-shadow: 0px 0px 70px -40px rgba(0,0,0,0.75);
 }
 
-.post-card-thumbnail {
+.post-cards[view="horizontal"] .post-card-thumbnail{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
@@ -21,6 +27,12 @@
   min-height: 180px;
   height: auto;
   width: auto;
+
+  border-radius: var(--post-card-border-radius) 0 0 var(--post-card-border-radius);
+}
+
+.post-cards[view="horizontal"] .post-card-text {
+  margin-top: 1.5rem;
 }
 
 .post-card-title {
@@ -32,7 +44,6 @@
 }
 
 .post-card-title:hover {
-  margin: 0;
   text-decoration: underline;
   text-decoration-color: var(--post-card-highlight-lighter-color);
   text-underline-offset: 2px;
@@ -41,28 +52,46 @@
 .post-card-info {
   margin: 0;
   padding: 0;
-
-  color: var(--post-card-info-color);
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-
-  margin-bottom: 0.5rem;
 }
 
-.post-card-tag-badge {
-  display: inline-block ;
 
-  color: var(--post-card-highlight-lighter-color);
-  font-size: 0.75rem;
-  line-height: 1rem;
+/* Vertical layout */
+.post-cards[view="vertical"] {
+  --post-card-border-radius: 0.25rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
 
-  padding-top: 1px;
-  padding-bottom: 1px;
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
+  gap: 1rem;
+}
 
-  border: 1px solid var(--post-card-highlight-darker-color);
-  border-radius: 0.375rem;
+.post-cards[view="vertical"] .post-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
 
-  margin-right: 0.25rem;
+  gap: 1rem;
+  border: 2px solid rgba(128, 128, 128, 0.1);
+  border-radius: var(--post-card-border-radius);
+
+  backdrop-filter: blur(5px);
+  box-shadow: 0px 0px 70px -40px rgba(0,0,0,0.75);
+}
+
+.post-cards[view="vertical"] .post-card-thumbnail{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+
+  min-width: 150px;
+  min-height: 180px;
+  height: auto;
+  width: auto;
+
+  border-radius: var(--post-card-border-radius) 0 0 var(--post-card-border-radius);
+}
+
+.post-cards[view="vertical"] .post-card-text {
+  padding: 1rem;
+  padding-top: 0.15rem;
 }

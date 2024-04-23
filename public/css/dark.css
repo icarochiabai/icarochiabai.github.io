@@ -1,0 +1,45 @@
+  :root {
+    color-scheme: dark;
+    --main-text-color: var(--main-text-color-dark);
+    --dim-text-color: var(--dim-text-color-dark);
+    --main-highlight-color: var(--main-highlight-color-dark);
+    --dim-highlight-color: var(--dim-highlight-color-dark);
+
+    --hr-color: var(--dim-text-color-dark);
+
+    --header-color: var(--main-text-color-dark);
+
+    --author-card-name-color: var(--main-highlight-color-dark);
+    --author-card-bio-color: var(--dim-text-color-dark);
+
+    --post-cards-label: var(--main-text-color-dark);
+    --post-card-title-color: var(--main-text-color-dark);
+    --post-card-highlight-lighter-color: var(--main-highlight-color-dark);
+    --post-card-highlight-darker-color: var(--dim-highlight-color-dark);
+
+    --show-more-button-color: var(--dim-text-color-dark);
+    --show-more-button-hover-color: var(--main-highlight-color-dark);
+    --show-more-button-border-color: var(--dim-highlight-color-dark);
+
+    --footer-color: var(--main-text-color-dark);
+
+    --toc-header-text-color: var(--main-text-color-dark);
+    --toc-header-background-color: var(--light-background-color-dark);
+    --toc-content-background-color: transparent;
+    --toc-content-text-color: var(--toc-content-text-color-dark);
+    --toc-content-text-hover-color: var(--main-highlight-color-dark);
+    --toc-content-border-color: var(--light-background-color-dark);
+
+    --blockquote-border-color: var(--light-background-color-dark);
+    --blockquote-background-color: var(--dark-background-color-dark);
+
+    --code-background-color: var(--dark-background-color-dark);
+
+    --table-head-background-color: var(--main-highlight-color-dark);
+    --table-head-text-color: var(--main-text-color);
+    --table-background-color-light: var(--light-background-color-dark);
+    --table-background-color-dark: var(--dark-background-color-dark);
+
+    --selection-text-color: var(--main-text-color-dark);
+    --selection-background-color: var(--dim-highlight-color-dark)
+}

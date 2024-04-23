@@ -34,7 +34,7 @@ Renders a menu for the given menu ID.
       {{- end }}
     {{- end }}
     <li>
-      <a
+      <a class="transition-color"
         {{- range $k, $v := $attrs }}
           {{- with $v }}
             {{- printf " %s=%q" $k $v | safeHTMLAttr }}
@@ -48,4 +48,5 @@ Renders a menu for the given menu ID.
       {{- end }}
     </li>
   {{- end }}
+  {{ partial "theme-toggle-button.html" . }}
 {{- end }}

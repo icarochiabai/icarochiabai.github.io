@@ -3,3 +3,25 @@
   font-family: 'system-ui';
   font-weight: 900;
 }
+
+.show-more-button {
+  display: flex;
+  justify-content: center;
+}
+
+.show-more-button a {
+  font-weight: 500;
+  font-size: 1rem;
+
+  color: var(--show-more-button-color);
+
+  padding: 0.5rem;
+
+  border: 1px solid var(--show-more-button-border-color);
+  border-radius: 0.5rem;
+
+}
+
+.show-more-button a:hover {
+  color:var(--show-more-button-hover-color);
+}

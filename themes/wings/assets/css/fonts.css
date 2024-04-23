@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'BigBlueTerminal';
+  src: url('/fonts/BigBlueTerminal/BigBlueTermPlusNerdFontMono-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'LigaSFMonoNerdFont';
+  src: url('/fonts/LigaSFMonoNerdFont/LigaSFMonoNerdFont-Regular.otf');
+}

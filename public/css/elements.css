@@ -1,0 +1,38 @@
+body {
+  background-color: var(--background);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p
+{
+  color: var(--main-text-color);
+}
+
+label {
+  color: var(--main-text-color);
+}
+
+li, td, th, tr, dd, dt, dl {
+  color: var(--main-text-color);
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+hr {
+  border: 2px solid var(--hr-color);
+  opacity: 0.1;
+}
+
+::selection {
+  background: var(--selection-background-color);
+  color: var(--selection-text-color);
+}

@@ -1,0 +1,16 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  <hr>
+  
+  {{ range site.Sections }}
+    {{ if ne .Path "/archive" }}
+      <h2>{{ .Title }}</h2>
+      <section class="post-cards" view="vertical">
+        {{ range .RegularPages }}
+          {{ partial "post_card.html" . }}
+        {{ end }}
+      </section>
+    {{ end }}
+  {{ end }}
+{{ end }}

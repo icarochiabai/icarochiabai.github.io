@@ -1,10 +1,41 @@
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
 
-  {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
-  {{ $dateHuman := .Date | time.Format ":date_long" }}
-  <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+  {{ with .Site.GetPage .Section }}
+  <a class="single-directory" href="{{ .RelPermalink }}"><span class="single-directory-text">{{ .Title }}</span> <span class="single-directory-bar">/</span></a>
+  {{ end }}
+  <h1 class="single-title">{{ .Title }}</h1>
+  <div>
+    <span class="dim-text">
+      {{ .Date.Format "02/01/2006" }} · {{ .WordCount }} palavras · {{ .ReadingTime }} minutos
+    </span>
+  </div>
 
-  {{ .Content }}
-  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
-{{ end }}
+  <div>
+    {{ with .GetTerms "tags" }}
+      {{ range . }}
+        <p style="display: inline">
+          <span class="highlight-badge">
+            <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+          </span>
+        </p>
+      {{ end }}
+    {{ end }}
+  </div>
+
+  <div class="single-author">
+    {{ with resources.GetMatch "images/author_profile.*" }}
+      <img class="author-card-profile" src="{{ .RelPermalink }}"/>
+    {{ end }}
+    <div class="single-author-info">
+      <h3>AUTOR</h3>
+      <h2>{{ .Site.Params.author.name}}</h2>
+      <p>{{ .Site.Params.author.postInfo }}</p>
+    </div>
+  </div>
+  
+  {{ partial "toc.html" . }}
+
+  <article class="article-content">
+    {{ .Content }}
+  </article>
+{{ end }} 

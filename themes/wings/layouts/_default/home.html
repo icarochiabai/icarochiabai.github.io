@@ -3,9 +3,12 @@
   {{ .Content }}
 
   <h2 class="post-cards-label">Recente</h2>
-  <section class="post-cards">
-    {{ range site.RegularPages }}
+  <section class="post-cards" view="horizontal">
+    {{ range site.RegularPages | first 3 }}
       {{ partial "post_card.html" . }}
     {{ end }}
   </section>
+  <div class="show-more-button">
+    <h2 class="show-more-button"><a class="transition-color" href="/archive">Mostrar mais</a></h2>
+  </div>
 {{ end }}

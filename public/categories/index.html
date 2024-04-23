@@ -6,43 +6,76 @@
 <title>Categories | Coisas de Ícaro</title>
 
     <link rel="stylesheet" href="/css/author_card.css">
+    <link rel="stylesheet" href="/css/aux.css">
+    <link rel="stylesheet" href="/css/baseof.css">
+    <link rel="stylesheet" href="/css/color_scheme.css">
+    <link rel="stylesheet" href="/css/elements.css">
+    <link rel="stylesheet" href="/css/fonts.css">
     <link rel="stylesheet" href="/css/footer.css">
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/home.css">
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/menu.css">
-    <link rel="stylesheet" href="/css/recent_card.css">
+    <link rel="stylesheet" href="/css/post_card.css">
+    <link rel="stylesheet" href="/css/single.css">
+    <link rel="stylesheet" href="/css/theme_toggle_button.css">
+    <link rel="stylesheet" href="/css/toc.css">
+
+<link rel="stylesheet" href="/css/dark.css" media="(prefers-color-scheme:dark)">
 
 
       <script src="/js/main.js"></script>
+<script type="module" src="https://unpkg.com/dark-mode-toggle"></script>
 
 
 </head>
+
 <body>
-  <header>
-    <h2><a href="http://localhost:1313/">Coisas de Ícaro</a></h2>
+  
+    
+      <div class="background-container">
+        <div class="background" style="background-image: url(/images/background.gif)">
+        </div>
+      </div>
+    
+  
+
+
+  <div class="wrapper">
+    <section class="wrapper-wrapper">
+      <header>
+        <h2 class="header-title"><a href="http://localhost:1313/">Coisas de Ícaro</a></h2>
 
   <nav class="header-menu">
     <ul>
     <li>
-      <a href="/posts/">Posts</a>
+      <a class="transition-color" href="/posts/">Posts</a>
     </li>
+    <li>
+      <a class="transition-color" href="/notas/">Notas</a>
+    </li>
+  <dark-mode-toggle>
+
+  </dark-mode-toggle>
     </ul>
   </nav>
 
 
-  </header>
-  <main>
-    
+      </header>
+      <main>
+        
   <h1>Categories</h1>
   
   
+  <section class="post-cards" view="vertical">
+    
+  </section>
 
-  </main>
-  <footer>
-    <p><small>Feito por mim.</small></p>
+      </main>
+    </section>
+    <footer>
+      <p><small>Feito por mim.</small></p>
 <p><small>© 2024.</small></p>
 
-  </footer>
+    </footer>
+  </div>
 </body>
 </html>

@@ -2,3 +2,7 @@ baseURL = 'https://example.org/'
 languageCode = 'pt-br'
 title = 'Coisas de Ícaro'
 theme = 'wings'
+
+# Allow HTML in .md files
+[markup.goldmark.renderer]
+  unsafe = true

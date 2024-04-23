@@ -5,23 +5,30 @@
 </head>
 
 <body>
-  
-  {{ if .IsHome }}
+  {{ with .Resources.GetMatch "thumbnail.*" }}
+  <div class="background-container">
+    <div class="background" style="background-image: url({{ .RelPermalink }})">
+    </div>
+  </div>
+  {{ else }}
     {{ with resources.GetMatch "images/background.*" }}
       <div class="background-container">
         <div class="background" style="background-image: url({{ .RelPermalink }})">
         </div>
       </div>
     {{ end }}
-  {{ end }}
+  {{ end}}
+
 
   <div class="wrapper">
-    <header>
-      {{ partial "header.html" . }}
-    </header>
-    <main>
-      {{ block "main" . }}{{ end }}
-    </main>
+    <section class="wrapper-wrapper">
+      <header>
+        {{ partial "header.html" . }}
+      </header>
+      <main>
+        {{ block "main" . }}{{ end }}
+      </main>
+    </section>
     <footer>
       {{ partial "footer.html" . }}
     </footer>

@@ -1,0 +1,104 @@
+.toc-body {
+  width: 100%;
+  margin-top: 1rem;
+
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.toc-checkbox {
+  display: none;
+}
+
+.toc-checkbox ~ nav {
+  display: none;
+}
+
+.toc-checkbox:checked ~ nav{
+  display: block;
+} 
+
+.toc-checkbox:checked ~ .toc-title {
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.toc-title {
+  cursor: pointer;
+  box-sizing: border-box;
+
+  display: inline-block;
+  width: 100%;
+
+  background-color: var(--toc-header-background-color);
+
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+
+}
+
+.toc-title span {
+  color: var(--toc-header-text-color);
+
+}
+
+.toc-checkbox ~ label:after {
+  content: 'Sumário';
+  font-weight: 700;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}
+
+.toc-checkbox ~ label > span {
+  margin-left: 0.5rem;
+}
+
+.toc-checkbox ~ label > span:before {
+  content: '◥';
+}
+
+.toc-checkbox ~ label > span:after {
+  content: '';
+}
+
+.toc-checkbox:checked ~ label > span:before {
+  content: '';
+}
+
+.toc-checkbox:checked ~ label > span:after {
+  content: '◢';
+} 
+
+#TableOfContents {
+  backdrop-filter: blur(3px);
+  border: 1px solid var(--toc-content-border-color);
+
+  border-top: none;
+  border-radius: 0 0 1rem 1rem;
+  background-color: var(--toc-content-background-color);
+}
+
+#TableOfContents ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 1.25rem;
+  padding-top: 1rem;
+}
+
+#TableOfContents ul li {
+  margin-bottom: 0.75rem;
+
+}
+
+#TableOfContents ul li a{
+  color: var(--toc-content-text-color);
+}
+
+#TableOfContents ul li a:hover{
+  color: var(--toc-content-text-hover-color);
+  text-decoration: underline;
+  transition: color .15s ease-in-out;
+}
+
+#TableOfContents ul li ul {
+  padding-top: 0.5rem;
+}

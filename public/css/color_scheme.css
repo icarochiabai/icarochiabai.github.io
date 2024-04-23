@@ -1,0 +1,169 @@
+* {
+  /* Light theme */
+  --main-text-color-light: #0c0c0c;
+  --dim-text-color-light: #606060;
+  --toc-content-text-color-light: #4c4844;
+  --dark-background-color-light: #c0c0c0;
+  --light-background-color-light: #f0f0f0;
+  --inverted-text-color-light: #fbfbfb;
+
+  --main-highlight-color-light: #18ac4d;
+  --dim-highlight-color-light: #0f6c30;
+
+  /* Dark theme */
+  --background-color-dark: #1C1B22;
+
+  --main-text-color-dark: #fbfbfb;
+  --dim-text-color-dark: #cbcbcb;
+  --toc-content-text-color-dark: #a49e9a;
+  --dark-background-color-dark: #101010;
+  --light-background-color-dark: #44403c;
+  --inverted-text-color-dark: #1f1f1f;
+
+  --main-highlight-color-dark: #18ac4d;
+  --dim-highlight-color-dark: #0f6c30;
+}
+
+:root {
+  color-scheme: light;
+  --main-text-color: var(--main-text-color-light);
+  --dim-text-color: var(--dim-text-color-light);
+  --header-color: var(--main-text-color-light);
+  --main-highlight-color: var(--main-highlight-color-light);
+  --dim-highlight-color: var(--dim-highlight-color-light);
+
+  --hr-color: var(--dim-text-color-light);
+
+  --author-card-name-color: var(--main-highlight-color-light);
+  --author-card-bio-color: var(--dim-text-color-light);
+
+  --post-cards-label: var(--main-text-color-light);
+  --post-card-title-color: var(--main-text-color-light);
+  --post-card-highlight-lighter-color: var(--main-highlight-color-light);
+  --post-card-highlight-darker-color: var(--dim-highlight-color-light);
+
+  --show-more-button-color: var(--dim-text-color-light);
+  --show-more-button-hover-color: var(--main-highlight-color-light);
+  --show-more-button-border-color: var(--main-highlight-color-light);
+
+  --footer-color: var(--main-text-color-light);
+  
+  --toc-header-text-color: var(--main-text-color-light);
+  --toc-header-background-color: var(--light-background-color-light);
+  --toc-content-background-color: transparent;
+  --toc-content-text-color: var(--toc-content-text-color-light);
+  --toc-content-text-hover-color: var(--main-highlight-color-light);
+  --toc-content-border-color: var(--light-background-color-light);
+
+  --blockquote-border-color: var(--dark-background-color-light);
+  --blockquote-background-color: var(--light-background-color-light);
+
+  --code-background-color: var(--dark-background-color-light);
+
+  --table-head-background-color: var(--main-highlight-color-light);
+  --table-head-text-color: var(--inverted-text-color-light);
+  --table-background-color-light: var(--light-background-color-light);
+  --table-background-color-dark: var(--dark-background-color-light);
+
+  --selection-text-color: var(--inverted-text-color-light);
+  --selection-background-color: var(--dim-highlight-color-light);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --main-text-color: var(--main-text-color-dark);
+    --dim-text-color: var(--dim-text-color-dark);
+    --main-highlight-color: var(--main-highlight-color-dark);
+    --dim-highlight-color: var(--dim-highlight-color-dark);
+
+    --hr-color: var(--dim-text-color-dark);
+
+    --header-color: var(--main-text-color-dark);
+
+    --author-card-name-color: var(--main-highlight-color-dark);
+    --author-card-bio-color: var(--dim-text-color-dark);
+
+    --post-cards-label: var(--main-text-color-dark);
+    --post-card-title-color: var(--main-text-color-dark);
+    --post-card-highlight-lighter-color: var(--main-highlight-color-dark);
+    --post-card-highlight-darker-color: var(--dim-highlight-color-dark);
+
+    --show-more-button-color: var(--dim-text-color-dark);
+    --show-more-button-hover-color: var(--main-highlight-color-dark);
+    --show-more-button-border-color: var(--dim-highlight-color-dark);
+
+    --footer-color: var(--main-text-color-dark);
+
+    --toc-header-text-color: var(--main-text-color-dark);
+    --toc-header-background-color: var(--light-background-color-dark);
+    --toc-content-background-color: transparent;
+    --toc-content-text-color: var(--toc-content-text-color-dark);
+    --toc-content-text-hover-color: var(--main-highlight-color-dark);
+    --toc-content-border-color: var(--light-background-color-dark);
+
+    --blockquote-border-color: var(--light-background-color-dark);
+    --blockquote-background-color: var(--dark-background-color-dark);
+
+    --code-background-color: var(--dark-background-color-dark);
+
+    --table-head-background-color: var(--main-highlight-color-dark);
+    --table-head-text-color: var(--main-text-color);
+    --table-background-color-light: var(--light-background-color-dark);
+    --table-background-color-dark: var(--dark-background-color-dark);
+
+    --selection-text-color: var(--main-text-color-dark);
+    --selection-background-color: var(--dim-highlight-color-dark)
+  }
+}
+
+.dark-mode {
+  background: var(--background-color-dark);
+  * {
+    color-scheme: dark;
+    --main-text-color: var(--main-text-color-dark);
+    --dim-text-color: var(--dim-text-color-dark);
+    --main-highlight-color: var(--main-highlight-color-dark);
+    --dim-highlight-color: var(--dim-highlight-color-dark);
+    --background: var(--background-color-dark)
+
+    --hr-color: var(--dim-text-color-dark);
+
+    --header-color: var(--main-text-color-dark);
+
+    --author-card-name-color: var(--main-highlight-color-dark);
+    --author-card-bio-color: var(--dim-text-color-dark);
+
+    --post-cards-label: var(--main-text-color-dark);
+    --post-card-title-color: var(--main-text-color-dark);
+    --post-card-highlight-lighter-color: var(--main-highlight-color-dark);
+    --post-card-highlight-darker-color: var(--dim-highlight-color-dark);
+
+    --show-more-button-color: var(--dim-text-color-dark);
+    --show-more-button-hover-color: var(--main-highlight-color-dark);
+    --show-more-button-border-color: var(--dim-highlight-color-dark);
+
+    --footer-color: var(--main-text-color-dark);
+
+    --toc-header-text-color: var(--main-text-color-dark);
+    --toc-header-background-color: var(--light-background-color-dark);
+    --toc-content-background-color: transparent;
+    --toc-content-text-color: var(--toc-content-text-color-dark);
+    --toc-content-text-hover-color: var(--main-highlight-color-dark);
+    --toc-content-border-color: var(--light-background-color-dark);
+
+    --blockquote-border-color: var(--light-background-color-dark);
+    --blockquote-background-color: var(--dark-background-color-dark);
+
+    --code-background-color: var(--dark-background-color-dark);
+
+    --table-head-background-color: var(--main-highlight-color-dark);
+    --table-head-text-color: var(--main-text-color);
+    --table-background-color-light: var(--light-background-color-dark);
+    --table-background-color-dark: var(--dark-background-color-dark);
+
+    --selection-text-color: var(--main-text-color-dark);
+    --selection-background-color: var(--dim-highlight-color-dark)
+  }
+
+}

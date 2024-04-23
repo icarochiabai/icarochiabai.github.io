@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bem-Estar on Coisas de Ícaro</title>
+    <link>http://localhost:1313/tags/bem-estar/</link>
+    <description>Recent content in Bem-Estar on Coisas de Ícaro</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Sun, 21 Apr 2024 07:12:24 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/bem-estar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mindfulness: Encontrando Paz no Momento Presente</title>
+      <link>http://localhost:1313/notas/nota03/</link>
+      <pubDate>Sun, 21 Apr 2024 07:12:24 -0300</pubDate>
+      <guid>http://localhost:1313/notas/nota03/</guid>
+      <description>Paragrafo 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis varius est ac tortor dictum ornare id non leo. Nam in ex in neque molestie accumsan. Pellentesque sit amet tincidunt ex, eu aliquam turpis. In efficitur lacinia augue hendrerit aliquam. Fusce varius velit non tellus molestie, eget luctus lorem pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget lorem dui. Sed lobortis dui vestibulum fermentum porta. Proin mi justo, condimentum nec risus ut, accumsan vestibulum neque.</description>
+    </item>
+  </channel>
+</rss>

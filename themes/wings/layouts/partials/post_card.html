@@ -1,4 +1,4 @@
-<div class="post-card">
+<div class="post-card" href="/">
   {{ with .Resources.GetMatch "thumbnail.*" }}
     <div style="background-image:url({{ .RelPermalink }});" class="post-card-thumbnail">
       <!-- Image goes here -->
@@ -11,15 +11,17 @@
     {{ end }}
   {{ end }}
 
-  <div>
+  <div class="post-card-text">
     <h2 class="post-card-title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
     <p class="post-card-info">
-      {{ .Date.Format "02/01/2006" }} · {{ .WordCount }} palavras · {{ .ReadingTime }} minutos
+      <span class="dim-text">
+        {{ .Date.Format "02/01/2006" }} · {{ .WordCount }} palavras · {{ .ReadingTime }} minutos
+      </span>
     </p>
     {{ with .GetTerms "tags" }}
       {{ range . }}
         <p style="display: inline">
-          <span class="post-card-tag-badge">
+          <span class="highlight-badge">
             <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
           </span>
         </p>

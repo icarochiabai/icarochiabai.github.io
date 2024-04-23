@@ -2,13 +2,9 @@
   <h1>{{ .Title }}</h1>
   {{ .Content }}
   
-  <section class="post-cards">
-    {{ range site.RegularPages }}
+  <section class="post-cards" view="vertical">
+    {{ range .Pages }}
       {{ partial "post_card.html" . }}
     {{ end }}
   </section>
-  <!-- {{ range .Pages }} -->
-  <!--   <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2> -->
-  <!--   {{ .Summary }} -->
-  <!-- {{ end }} -->
 {{ end }}

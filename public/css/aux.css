@@ -1,0 +1,51 @@
+/* Style for things that are used in a lot of pages. */
+
+.highlight-badge {
+  display: inline-block ;
+
+  color: var(--main-highlight-color);
+  font-size: 0.75rem;
+  line-height: 1rem;
+
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+
+  border: 1px solid var(--dim-highlight-color);
+  border-radius: 0.375rem;
+
+  margin-right: 0.25rem;
+}
+
+.dim-text {
+  margin: 0;
+  padding: 0;
+
+  color: var(--dim-text-color);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+
+  margin-bottom: 0.5rem;
+}
+
+.table-of-contents {
+  text-decoration: none;
+  list-style-type: none;
+  color: red;
+}
+
+.animate-blink {
+  animation: blink 1.5s infinite;
+  animation-fill-mode: both;
+}
+
+@keyframes blink {
+   0% { opacity: 0 }
+   50% { opacity: 1 }
+   100% { opacity: 0 }
+}
+
+.transition-color {
+  transition: color .15s ease-in-out;
+}

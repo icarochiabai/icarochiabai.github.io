@@ -6,28 +6,14 @@
     <description>Recent content in Notas on Coisas de Ícaro</description>
     <generator>Hugo 0.125.2</generator>
     <language>pt-br</language>
-    <lastBuildDate>Sun, 21 Apr 2024 07:12:24 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 23 Apr 2024 11:35:40 -0300</lastBuildDate>
     <atom:link href="http://localhost:1313/notas/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Mindfulness: Encontrando Paz no Momento Presente</title>
-      <link>http://localhost:1313/notas/nota03/</link>
-      <pubDate>Sun, 21 Apr 2024 07:12:24 -0300</pubDate>
-      <guid>http://localhost:1313/notas/nota03/</guid>
-      <description>Paragrafo 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis varius est ac tortor dictum ornare id non leo. Nam in ex in neque molestie accumsan. Pellentesque sit amet tincidunt ex, eu aliquam turpis. In efficitur lacinia augue hendrerit aliquam. Fusce varius velit non tellus molestie, eget luctus lorem pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget lorem dui. Sed lobortis dui vestibulum fermentum porta. Proin mi justo, condimentum nec risus ut, accumsan vestibulum neque.</description>
-    </item>
-    <item>
-      <title>Veganismo: Uma Escolha de Vida Sustentável</title>
-      <link>http://localhost:1313/notas/nota02/</link>
-      <pubDate>Sun, 21 Apr 2024 07:12:20 -0300</pubDate>
-      <guid>http://localhost:1313/notas/nota02/</guid>
-      <description>Paragrafo 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis varius est ac tortor dictum ornare id non leo. Nam in ex in neque molestie accumsan. Pellentesque sit amet tincidunt ex, eu aliquam turpis. In efficitur lacinia augue hendrerit aliquam. Fusce varius velit non tellus molestie, eget luctus lorem pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget lorem dui. Sed lobortis dui vestibulum fermentum porta. Proin mi justo, condimentum nec risus ut, accumsan vestibulum neque.</description>
-    </item>
-    <item>
-      <title>Primeira nota</title>
-      <link>http://localhost:1313/notas/nota01/</link>
-      <pubDate>Sun, 21 Apr 2024 06:26:55 -0300</pubDate>
-      <guid>http://localhost:1313/notas/nota01/</guid>
-      <description>Paragrafo 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis varius est ac tortor dictum ornare id non leo. Nam in ex in neque molestie accumsan. Pellentesque sit amet tincidunt ex, eu aliquam turpis. In efficitur lacinia augue hendrerit aliquam. Fusce varius velit non tellus molestie, eget luctus lorem pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget lorem dui. Sed lobortis dui vestibulum fermentum porta. Proin mi justo, condimentum nec risus ut, accumsan vestibulum neque.</description>
+      <title>Exemplo de nota</title>
+      <link>http://localhost:1313/notas/nota-exemplo/</link>
+      <pubDate>Tue, 23 Apr 2024 11:35:40 -0300</pubDate>
+      <guid>http://localhost:1313/notas/nota-exemplo/</guid>
+      <description>Mano, por favor, vai dormir, já são 11:36. Depois você termina isso.</description>
     </item>
   </channel>
 </rss>

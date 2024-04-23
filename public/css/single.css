@@ -67,8 +67,18 @@
   flex-direction: column;
 }
 
+.article-content h1,
+.article-content h2,
+.article-content h3,
+.article-content h4,
+.article-content h5,
+.article-content h6 {
+  margin-bottom: 0;
+}
+
 .article-content p {
   color: var(--main-text-color);
+  margin-bottom: 0;
 }
 
 .article-content strong {
@@ -117,7 +127,10 @@
   border-radius: var(--code-radius);
 }
 
-.article-content ul {
+.article-content ul,
+.article-content ol,
+.article-content dl {
+  margin-top: 0.25rem;
 }
 
 .article-content ul li {

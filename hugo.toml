@@ -1,20 +1,24 @@
 baseURL = 'https://example.org/'
 languageCode = 'pt-br'
-title = 'Wings'
+title = 'Coisas de Ícaro'
 theme = 'wings'
 
-#
-# [[menus.main]]
-# name = 'Posts'
-# pageRef = '/posts'
-# weight = 20
-#
-# [[menus.main]]
-# name = 'Notas'
-# pageRef = '/notas'
-# weight = 30
+# Allows HTML in .md files
+[markup.goldmark.renderer]
+ unsafe = true
 
-# [params.author]
-#   name = 'Ícaro Chiabai'
-#   bio = 'Minhas coisas!'
-#   postInfo = 'Apaixonado por coisas belas.'
+
+ [[menus.main]]
+ name = 'Posts'
+ pageRef = '/posts'
+ weight = 20
+
+ [[menus.main]]
+ name = 'Notas'
+ pageRef = '/notas'
+ weight = 30
+
+ [params.author]
+   name = 'Ícaro Chiabai'
+   bio = 'Minhas coisas!'
+   postInfo = 'Apaixonado por coisas belas.'

@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Wings</title>
+    <title>Posts on Coisas de Ícaro</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Wings</description>
+    <description>Recent content in Posts on Coisas de Ícaro</description>
     <generator>Hugo 0.125.2</generator>
     <language>pt-br</language>
-    <lastBuildDate>Tue, 23 Apr 2024 10:45:17 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 23 Apr 2024 11:20:09 -0300</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Custom Thumbnail Example</title>
-      <link>http://localhost:1313/posts/custom-thumbnail-example/</link>
-      <pubDate>Tue, 23 Apr 2024 10:45:17 -0300</pubDate>
-      <guid>http://localhost:1313/posts/custom-thumbnail-example/</guid>
-      <description>Made following the tutorial in the github repository Check it out here.&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tortor ipsum, blandit sed vestibulum id, dictum ac arcu. Maecenas vitae eleifend est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi at tortor dictum, vulputate lacus nec, dictum enim. Nullam pretium a quam eu euismod. Duis rutrum lacus vel varius consequat. Nunc et erat luctus, feugiat urna sit amet, maximus enim.</description>
-    </item>
-    <item>
-      <title>Example</title>
-      <link>http://localhost:1313/posts/example/</link>
-      <pubDate>Tue, 23 Apr 2024 10:43:17 -0300</pubDate>
-      <guid>http://localhost:1313/posts/example/</guid>
-      <description>Example of Markdown Text Paragraphs This is a normal paragraph of text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec nisi velit. Donec vitae arcu nec velit lacinia tempus. Duis non commodo libero. Aenean interdum malesuada ligula, nec sodales ipsum fermentum sit amet.&#xA;Another paragraph here. Nam volutpat neque eget neque ultricies, in feugiat nulla fermentum. Phasellus sed libero ut lorem ultrices accumsan. Integer dapibus, felis nec molestie dapibus, velit justo sollicitudin ex, vel aliquet justo lorem vel nisl.</description>
+      <title>Olá, mundo! 👋</title>
+      <link>http://localhost:1313/posts/ola-mundo/</link>
+      <pubDate>Tue, 23 Apr 2024 11:20:09 -0300</pubDate>
+      <guid>http://localhost:1313/posts/ola-mundo/</guid>
+      <description>Fiquei acordado até muito tarde para escrever este post. Mas pretendo escrever mais tarde, vou falar sobre como foi criar esse blog.&#xA;Sobre o que quero falar? Quero falar sobre:&#xA;Hugo Fazer o tema Não dormir direito por 1 semana inteira </description>
     </item>
   </channel>
 </rss>

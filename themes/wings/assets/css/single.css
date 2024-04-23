@@ -32,6 +32,7 @@
 .single-author img {
   max-width: 96px;
   height: auto;
+  aspect-ratio: 1/1;
 }
 
 .single-author-info {
@@ -66,8 +67,18 @@
   flex-direction: column;
 }
 
+.article-content h1,
+.article-content h2,
+.article-content h3,
+.article-content h4,
+.article-content h5,
+.article-content h6 {
+  margin-bottom: 0;
+}
+
 .article-content p {
   color: var(--main-text-color);
+  margin-bottom: 0;
 }
 
 .article-content strong {
@@ -116,7 +127,10 @@
   border-radius: var(--code-radius);
 }
 
-.article-content ul {
+.article-content ul,
+.article-content ol,
+.article-content dl {
+  margin-top: 0.25rem;
 }
 
 .article-content ul li {
@@ -135,11 +149,9 @@
   padding-inline-start: 1ch;
 }
 
-.article-content 
-
 .article-content ol li::marker {
   content: counter(list-item) "›";
-  color: var(--main-highlight-color);
+  color: var(--main-highlight-color); 
 }
 
 .article-content dl {

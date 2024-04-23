@@ -24,6 +24,7 @@
   --dim-highlight-color-dark: #0f6c30;
 }
 
+/* Ignore below */
 :root {
   color-scheme: light;
   --main-text-color: var(--main-text-color-light);

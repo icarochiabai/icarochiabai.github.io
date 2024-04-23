@@ -1,25 +1,5 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-
-
-[[menus.main]]
-name = 'Posts'
-pageRef = '/posts'
-weight = 20
-
-[[menus.main]]
-name = 'Notas'
-pageRef = '/notas'
-weight = 30
-
 [params]
   toc = true
-
-  [params.author]
-    name = 'Ícaro Chiabai'
-    bio = 'Minhas coisas!'
-    postInfo = 'Apaixonado por coisas belas.'
 
 [module]
   [module.hugoVersion]

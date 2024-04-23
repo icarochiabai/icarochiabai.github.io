@@ -6,3 +6,13 @@ footer {
 
   color: var(--footer-color);
 }
+
+footer a {
+  color: var(--main-highlight-color);
+  font-weight: bold;
+}
+
+footer a:hover,
+footer a:active {
+  text-decoration: underline;
+}

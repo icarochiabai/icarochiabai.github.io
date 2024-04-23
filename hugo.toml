@@ -1,8 +1,20 @@
 baseURL = 'https://example.org/'
 languageCode = 'pt-br'
-title = 'Coisas de Ícaro'
+title = 'Wings'
 theme = 'wings'
 
-# Allow HTML in .md files
-[markup.goldmark.renderer]
-  unsafe = true
+#
+# [[menus.main]]
+# name = 'Posts'
+# pageRef = '/posts'
+# weight = 20
+#
+# [[menus.main]]
+# name = 'Notas'
+# pageRef = '/notas'
+# weight = 30
+
+# [params.author]
+#   name = 'Ícaro Chiabai'
+#   bio = 'Minhas coisas!'
+#   postInfo = 'Apaixonado por coisas belas.'

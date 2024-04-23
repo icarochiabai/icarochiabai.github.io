@@ -32,6 +32,7 @@
 .single-author img {
   max-width: 96px;
   height: auto;
+  aspect-ratio: 1/1;
 }
 
 .single-author-info {
@@ -135,11 +136,9 @@
   padding-inline-start: 1ch;
 }
 
-.article-content 
-
 .article-content ol li::marker {
   content: counter(list-item) "›";
-  color: var(--main-highlight-color);
+  color: var(--main-highlight-color); 
 }
 
 .article-content dl {

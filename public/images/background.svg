@@ -1,257 +1,574 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin:auto;background:rgba(NaN, NaN, NaN, 0);display:block;z-index:1;position:relative" width="1084" height="322" preserveAspectRatio="xMidYMid" viewBox="0 0 1084 322">
-    <defs>
-      <pattern id="pid-0.2950529742247572" x="0" y="0" width="711.6800000000001" height="711.6800000000001" patternUnits="userSpaceOnUse">
-        <g transform="scale(2.7800000000000002)"><circle cx="180.39755796770348" cy="144.2104368598822" r="0" fill="none" stroke="#1ed760" stroke-width="8">
-      <animate attributeName="r" values="0;17.85434406280291" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-44.622752456562516s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-44.622752456562516s"></animate>
-    </circle><circle cx="16.825168708189995" cy="32.834595161139454" r="0" fill="none" stroke="#1ed760" stroke-width="8">
-      <animate attributeName="r" values="0;50.39487920677064" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-35.52246651250024s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-35.52246651250024s"></animate>
-    </circle><circle cx="272.82516870819" cy="32.834595161139454" r="0" fill="none" stroke="#1ed760" stroke-width="8">
-      <animate attributeName="r" values="0;50.39487920677064" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-35.52246651250024s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-35.52246651250024s"></animate>
-    </circle><circle cx="16.825168708189995" cy="288.8345951611395" r="0" fill="none" stroke="#1ed760" stroke-width="8">
-      <animate attributeName="r" values="0;50.39487920677064" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-35.52246651250024s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-35.52246651250024s"></animate>
-    </circle><circle cx="272.82516870819" cy="288.8345951611395" r="0" fill="none" stroke="#1ed760" stroke-width="8">
-      <animate attributeName="r" values="0;50.39487920677064" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-35.52246651250024s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-35.52246651250024s"></animate>
-    </circle><circle cx="133.7281341523537" cy="37.557212373233874" r="0" fill="none" stroke="#12813a" stroke-width="8">
-      <animate attributeName="r" values="0;24.44944303845901" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-33.76558939460953s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-33.76558939460953s"></animate>
-    </circle><circle cx="9.311746119524932" cy="139.87259197506899" r="0" fill="none" stroke="#12813a" stroke-width="8">
-      <animate attributeName="r" values="0;42.09217911991696" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-16.268240533907207s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-16.268240533907207s"></animate>
-    </circle><circle cx="265.3117461195249" cy="139.87259197506899" r="0" fill="none" stroke="#12813a" stroke-width="8">
-      <animate attributeName="r" values="0;42.09217911991696" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-16.268240533907207s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-16.268240533907207s"></animate>
-    </circle><circle cx="228.8288862878399" cy="50.59785782429598" r="0" fill="none" stroke="#18ac4d" stroke-width="8">
-      <animate attributeName="r" values="0;19.868262625397918" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-23.68489264848651s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-23.68489264848651s"></animate>
-    </circle><circle cx="77.20196271561525" cy="31.611804700405518" r="0" fill="none" stroke="#12813a" stroke-width="8">
-      <animate attributeName="r" values="0;45.28258812229561" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-28.661787725688292s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-28.661787725688292s"></animate>
-    </circle><circle cx="77.20196271561525" cy="287.6118047004055" r="0" fill="none" stroke="#12813a" stroke-width="8">
-      <animate attributeName="r" values="0;45.28258812229561" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-28.661787725688292s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-28.661787725688292s"></animate>
-    </circle><circle cx="153.86297348533364" cy="53.13721410068965" r="0" fill="none" stroke="#1ed760" stroke-width="8">
-      <animate attributeName="r" values="0;56.59657006893606" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-26.846959941207736s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-26.846959941207736s"></animate>
-    </circle><circle cx="153.86297348533364" cy="309.1372141006897" r="0" fill="none" stroke="#1ed760" stroke-width="8">
-      <animate attributeName="r" values="0;56.59657006893606" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-26.846959941207736s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-26.846959941207736s"></animate>
-    </circle><circle cx="238.25141956589107" cy="242.3948925366868" r="0" fill="none" stroke="#12813a" stroke-width="8">
-      <animate attributeName="r" values="0;7.110432319564012" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-22.8377648779141s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-22.8377648779141s"></animate>
-    </circle><circle cx="171.29587360943597" cy="93.62941553592991" r="0" fill="none" stroke="#18ac4d" stroke-width="8">
-      <animate attributeName="r" values="0;64.80517552507085" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-41.081630071778505s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-41.081630071778505s"></animate>
-    </circle><circle cx="33.7803997203791" cy="200.65918731382288" r="0" fill="none" stroke="#18ac4d" stroke-width="8">
-      <animate attributeName="r" values="0;23.874060138252702" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-29.74940953893833s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-29.74940953893833s"></animate>
-    </circle><circle cx="171.68455092137125" cy="208.29640936292603" r="0" fill="none" stroke="#12813a" stroke-width="8">
-      <animate attributeName="r" values="0;10.804694032911527" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-46.827942545330814s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-46.827942545330814s"></animate>
-    </circle><circle cx="79.4759072969399" cy="14.760241106300118" r="0" fill="none" stroke="#1ed760" stroke-width="8">
-      <animate attributeName="r" values="0;63.07191175406126" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-38.31065839827809s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-38.31065839827809s"></animate>
-    </circle><circle cx="79.4759072969399" cy="270.7602411063001" r="0" fill="none" stroke="#1ed760" stroke-width="8">
-      <animate attributeName="r" values="0;63.07191175406126" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-38.31065839827809s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-38.31065839827809s"></animate>
-    </circle><circle cx="34.30718832814177" cy="60.207260607353895" r="0" fill="none" stroke="#1ed760" stroke-width="8">
-      <animate attributeName="r" values="0;36.85782580252244" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-33.9202714458405s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-33.9202714458405s"></animate>
-    </circle><circle cx="290.30718832814176" cy="60.207260607353895" r="0" fill="none" stroke="#1ed760" stroke-width="8">
-      <animate attributeName="r" values="0;36.85782580252244" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-33.9202714458405s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-33.9202714458405s"></animate>
-    </circle><circle cx="141.57461629003254" cy="187.07605677907222" r="0" fill="none" stroke="#1ed760" stroke-width="8">
-      <animate attributeName="r" values="0;51.82556427519147" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-39.3497070269789s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-39.3497070269789s"></animate>
-    </circle><circle cx="89.86556463252813" cy="191.98681310799674" r="0" fill="none" stroke="#1ed760" stroke-width="8">
-      <animate attributeName="r" values="0;42.52162149867297" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-17.730611990382005s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-17.730611990382005s"></animate>
-    </circle><circle cx="135.68751640285163" cy="79.13898775934953" r="0" fill="none" stroke="#18ac4d" stroke-width="8">
-      <animate attributeName="r" values="0;13.167119065627332" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-5.604152896601732s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-5.604152896601732s"></animate>
-    </circle><circle cx="222.37419164851048" cy="172.5138843825768" r="0" fill="none" stroke="#18ac4d" stroke-width="8">
-      <animate attributeName="r" values="0;30.712438068878654" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-11.730564332626214s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-11.730564332626214s"></animate>
-    </circle><circle cx="65.37962957434202" cy="71.08214856672792" r="0" fill="none" stroke="#12813a" stroke-width="8">
-      <animate attributeName="r" values="0;51.390991126295845" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-38.53817444257383s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-38.53817444257383s"></animate>
-    </circle><circle cx="146.90696443169887" cy="160.58661584710634" r="0" fill="none" stroke="#1ed760" stroke-width="8">
-      <animate attributeName="r" values="0;30.874027084269912" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-48.61529961868726s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-48.61529961868726s"></animate>
-    </circle><circle cx="20.6640150520578" cy="116.652000839832" r="0" fill="none" stroke="#12813a" stroke-width="8">
-      <animate attributeName="r" values="0;20.32462575632799" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-16.94818532763218s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-16.94818532763218s"></animate>
-    </circle><circle cx="14.794147949099273" cy="178.87974595952937" r="0" fill="none" stroke="#18ac4d" stroke-width="8">
-      <animate attributeName="r" values="0;62.66357119046049" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-22.398483724039195s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-22.398483724039195s"></animate>
-    </circle><circle cx="270.7941479490993" cy="178.87974595952937" r="0" fill="none" stroke="#18ac4d" stroke-width="8">
-      <animate attributeName="r" values="0;62.66357119046049" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-22.398483724039195s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-22.398483724039195s"></animate>
-    </circle><circle cx="31.287373376921607" cy="70.1833739363135" r="0" fill="none" stroke="#1ed760" stroke-width="8">
-      <animate attributeName="r" values="0;15.295461964288506" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-13.161686681828998s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-13.161686681828998s"></animate>
-    </circle><circle cx="178.84317419706238" cy="167.34091291757605" r="0" fill="none" stroke="#1ed760" stroke-width="8">
-      <animate attributeName="r" values="0;62.162205555011425" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-23.327170625044392s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-23.327170625044392s"></animate>
-    </circle><circle cx="154.05316621664582" cy="55.033341833431564" r="0" fill="none" stroke="#1ed760" stroke-width="8">
-      <animate attributeName="r" values="0;39.67588542484934" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-15.452897657374963s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-15.452897657374963s"></animate>
-    </circle><circle cx="72.19223514179198" cy="135.19246311905093" r="0" fill="none" stroke="#12813a" stroke-width="8">
-      <animate attributeName="r" values="0;20.804220090813203" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-45.51768235650617s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-45.51768235650617s"></animate>
-    </circle><circle cx="150.9364802116815" cy="160.51205929354626" r="0" fill="none" stroke="#18ac4d" stroke-width="8">
-      <animate attributeName="r" values="0;36.57407641397833" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-28.280565367328037s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-28.280565367328037s"></animate>
-    </circle><circle cx="200.40953970115999" cy="54.21097279269783" r="0" fill="none" stroke="#12813a" stroke-width="8">
-      <animate attributeName="r" values="0;18.303774190487488" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-16.214535605827784s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-16.214535605827784s"></animate>
-    </circle><circle cx="180.31885618742604" cy="242.78087924898603" r="0" fill="none" stroke="#1ed760" stroke-width="8">
-      <animate attributeName="r" values="0;11.71365962730546" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-33.612535536027956s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-33.612535536027956s"></animate>
-    </circle><circle cx="203.8062010106876" cy="232.68973192108191" r="0" fill="none" stroke="#1ed760" stroke-width="8">
-      <animate attributeName="r" values="0;5.455675580739268" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-11.86697370110249s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-11.86697370110249s"></animate>
-    </circle><circle cx="171.6066941076269" cy="48.04474014530398" r="0" fill="none" stroke="#1ed760" stroke-width="8">
-      <animate attributeName="r" values="0;38.59286259496349" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-29.250466319872224s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-29.250466319872224s"></animate>
-    </circle><circle cx="125.11525876384411" cy="149.77467373569812" r="0" fill="none" stroke="#1ed760" stroke-width="8">
-      <animate attributeName="r" values="0;46.62256816012656" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-10.699532836506153s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-10.699532836506153s"></animate>
-    </circle><circle cx="89.16772547042389" cy="100.43557995027065" r="0" fill="none" stroke="#1ed760" stroke-width="8">
-      <animate attributeName="r" values="0;50.90728701564909" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-20.057887262682318s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-20.057887262682318s"></animate>
-    </circle><circle cx="163.0802387343303" cy="125.70388388233474" r="0" fill="none" stroke="#1ed760" stroke-width="8">
-      <animate attributeName="r" values="0;60.89399699890593" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-29.04746538184899s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-29.04746538184899s"></animate>
-    </circle><circle cx="147.29969577601045" cy="40.152117547871356" r="0" fill="none" stroke="#1ed760" stroke-width="8">
-      <animate attributeName="r" values="0;50.17094951058618" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-8.699383046276775s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-8.699383046276775s"></animate>
-    </circle><circle cx="147.29969577601045" cy="296.15211754787134" r="0" fill="none" stroke="#1ed760" stroke-width="8">
-      <animate attributeName="r" values="0;50.17094951058618" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-8.699383046276775s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-8.699383046276775s"></animate>
-    </circle><circle cx="50.39439200506233" cy="147.3941729324677" r="0" fill="none" stroke="#12813a" stroke-width="8">
-      <animate attributeName="r" values="0;50.69970142939741" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-17.544702694456348s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-17.544702694456348s"></animate>
-    </circle><circle cx="306.39439200506234" cy="147.3941729324677" r="0" fill="none" stroke="#12813a" stroke-width="8">
-      <animate attributeName="r" values="0;50.69970142939741" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-17.544702694456348s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-17.544702694456348s"></animate>
-    </circle><circle cx="188.7139101584322" cy="210.7115210762685" r="0" fill="none" stroke="#12813a" stroke-width="8">
-      <animate attributeName="r" values="0;29.504019948829963" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-32.532647237390165s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-32.532647237390165s"></animate>
-    </circle><circle cx="114.22207446357659" cy="124.76935492926279" r="0" fill="none" stroke="#1ed760" stroke-width="8">
-      <animate attributeName="r" values="0;11.986008541965333" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-16.917226446523447s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-16.917226446523447s"></animate>
-    </circle><circle cx="194.31954289149434" cy="166.65089356408262" r="0" fill="none" stroke="#1ed760" stroke-width="8">
-      <animate attributeName="r" values="0;20.194181381536055" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-30.020995894146097s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-30.020995894146097s"></animate>
-    </circle><circle cx="184.86541783077774" cy="44.886087590301756" r="0" fill="none" stroke="#18ac4d" stroke-width="8">
-      <animate attributeName="r" values="0;56.99589341531981" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-36.60809296354671s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-36.60809296354671s"></animate>
-    </circle><circle cx="184.86541783077774" cy="300.88608759030177" r="0" fill="none" stroke="#18ac4d" stroke-width="8">
-      <animate attributeName="r" values="0;56.99589341531981" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-36.60809296354671s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-36.60809296354671s"></animate>
-    </circle><circle cx="128.6294815429427" cy="20.412863761372066" r="0" fill="none" stroke="#1ed760" stroke-width="8">
-      <animate attributeName="r" values="0;58.14291539416182" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-38.6283523615141s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-38.6283523615141s"></animate>
-    </circle><circle cx="128.6294815429427" cy="276.4128637613721" r="0" fill="none" stroke="#1ed760" stroke-width="8">
-      <animate attributeName="r" values="0;58.14291539416182" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-38.6283523615141s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-38.6283523615141s"></animate>
-    </circle><circle cx="94.65360523910455" cy="237.65373752048882" r="0" fill="none" stroke="#12813a" stroke-width="8">
-      <animate attributeName="r" values="0;10.872426017373087" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-17.286612875431295s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-17.286612875431295s"></animate>
-    </circle><circle cx="186.84577473379255" cy="4.291441103039755" r="0" fill="none" stroke="#1ed760" stroke-width="8">
-      <animate attributeName="r" values="0;50.03848537207753" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-30.97916037182813s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-30.97916037182813s"></animate>
-    </circle><circle cx="186.84577473379255" cy="260.29144110303974" r="0" fill="none" stroke="#1ed760" stroke-width="8">
-      <animate attributeName="r" values="0;50.03848537207753" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-30.97916037182813s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-30.97916037182813s"></animate>
-    </circle><circle cx="3.1171684515748126" cy="10.536170179400985" r="0" fill="none" stroke="#12813a" stroke-width="8">
-      <animate attributeName="r" values="0;31.72037969636405" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-29.18270767825585s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-29.18270767825585s"></animate>
-    </circle><circle cx="259.1171684515748" cy="10.536170179400985" r="0" fill="none" stroke="#12813a" stroke-width="8">
-      <animate attributeName="r" values="0;31.72037969636405" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-29.18270767825585s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-29.18270767825585s"></animate>
-    </circle><circle cx="3.1171684515748126" cy="266.536170179401" r="0" fill="none" stroke="#12813a" stroke-width="8">
-      <animate attributeName="r" values="0;31.72037969636405" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-29.18270767825585s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-29.18270767825585s"></animate>
-    </circle><circle cx="259.1171684515748" cy="266.536170179401" r="0" fill="none" stroke="#12813a" stroke-width="8">
-      <animate attributeName="r" values="0;31.72037969636405" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-29.18270767825585s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-29.18270767825585s"></animate>
-    </circle><circle cx="188.74527992387326" cy="21.78088381944502" r="0" fill="none" stroke="#18ac4d" stroke-width="8">
-      <animate attributeName="r" values="0;24.62604013195285" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-15.60412108402891s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-15.60412108402891s"></animate>
-    </circle><circle cx="188.74527992387326" cy="277.780883819445" r="0" fill="none" stroke="#18ac4d" stroke-width="8">
-      <animate attributeName="r" values="0;24.62604013195285" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-15.60412108402891s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-15.60412108402891s"></animate>
-    </circle><circle cx="25.856888539646313" cy="42.26884688505775" r="0" fill="none" stroke="#12813a" stroke-width="8">
-      <animate attributeName="r" values="0;47.95560071224433" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-16.780876976602578s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-16.780876976602578s"></animate>
-    </circle><circle cx="281.8568885396463" cy="42.26884688505775" r="0" fill="none" stroke="#12813a" stroke-width="8">
-      <animate attributeName="r" values="0;47.95560071224433" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-16.780876976602578s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-16.780876976602578s"></animate>
-    </circle><circle cx="25.856888539646313" cy="298.26884688505777" r="0" fill="none" stroke="#12813a" stroke-width="8">
-      <animate attributeName="r" values="0;47.95560071224433" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-16.780876976602578s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-16.780876976602578s"></animate>
-    </circle><circle cx="281.8568885396463" cy="298.26884688505777" r="0" fill="none" stroke="#12813a" stroke-width="8">
-      <animate attributeName="r" values="0;47.95560071224433" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-16.780876976602578s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-16.780876976602578s"></animate>
-    </circle><circle cx="80.07378641634132" cy="99.95189316646443" r="0" fill="none" stroke="#18ac4d" stroke-width="8">
-      <animate attributeName="r" values="0;31.25308753538168" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-44.38933261009856s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-44.38933261009856s"></animate>
-    </circle><circle cx="115.28452115370486" cy="183.50469529806404" r="0" fill="none" stroke="#18ac4d" stroke-width="8">
-      <animate attributeName="r" values="0;43.47190520350591" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-35.01262905715093s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-35.01262905715093s"></animate>
-    </circle><circle cx="178.06444021126137" cy="196.65069638203684" r="0" fill="none" stroke="#18ac4d" stroke-width="8">
-      <animate attributeName="r" values="0;55.28300103432255" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-31.907669721653242s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-31.907669721653242s"></animate>
-    </circle><circle cx="44.16845143857357" cy="102.58764890706274" r="0" fill="none" stroke="#18ac4d" stroke-width="8">
-      <animate attributeName="r" values="0;56.592641937222965" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-21.452416790316818s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-21.452416790316818s"></animate>
-    </circle><circle cx="300.1684514385736" cy="102.58764890706274" r="0" fill="none" stroke="#18ac4d" stroke-width="8">
-      <animate attributeName="r" values="0;56.592641937222965" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-21.452416790316818s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-21.452416790316818s"></animate>
-    </circle><circle cx="79.90917564776078" cy="58.24933597303385" r="0" fill="none" stroke="#1ed760" stroke-width="8">
-      <animate attributeName="r" values="0;17.76697933939279" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-6.018058267098058s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-6.018058267098058s"></animate>
-    </circle><circle cx="99.51047224071066" cy="68.21685313096823" r="0" fill="none" stroke="#18ac4d" stroke-width="8">
-      <animate attributeName="r" values="0;32.538025421938485" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-24.711449309412114s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-24.711449309412114s"></animate>
-    </circle><circle cx="170.23837150372032" cy="80.50555967618685" r="0" fill="none" stroke="#18ac4d" stroke-width="8">
-      <animate attributeName="r" values="0;49.47798543600463" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-27.302250080429058s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-27.302250080429058s"></animate>
-    </circle><circle cx="146.82045516936643" cy="81.4540879579799" r="0" fill="none" stroke="#18ac4d" stroke-width="8">
-      <animate attributeName="r" values="0;17.51784178229697" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-14.316475870551947s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-14.316475870551947s"></animate>
-    </circle><circle cx="85.89692843138472" cy="166.66227056758296" r="0" fill="none" stroke="#1ed760" stroke-width="8">
-      <animate attributeName="r" values="0;43.09830041436764" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-25.33233432848061s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-25.33233432848061s"></animate>
-    </circle><circle cx="177.2226960369944" cy="175.07899171519415" r="0" fill="none" stroke="#12813a" stroke-width="8">
-      <animate attributeName="r" values="0;43.73555785023012" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-25.121497689569683s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-25.121497689569683s"></animate>
-    </circle><circle cx="216.86808064093213" cy="27.577527215605766" r="0" fill="none" stroke="#18ac4d" stroke-width="8">
-      <animate attributeName="r" values="0;4.737877261879547" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-15.904900634836528s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-15.904900634836528s"></animate>
-    </circle><circle cx="110.04710192749121" cy="180.18493319620214" r="0" fill="none" stroke="#18ac4d" stroke-width="8">
-      <animate attributeName="r" values="0;44.77556931875715" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-1.5780314591062772s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="25s" begin="-1.5780314591062772s"></animate>
-    </circle><circle cx="64.71846547185336" cy="75.44443893159085" r="0" fill="none" stroke="#18ac4d" stroke-width="8">
-      <animate attributeName="r" values="0;9.889551183237941" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-36.2183301855013s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-36.2183301855013s"></animate>
-    </circle><circle cx="40.659167565439354" cy="80.92354614012416" r="0" fill="none" stroke="#12813a" stroke-width="8">
-      <animate attributeName="r" values="0;47.03611543920749" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-40.52530054760075s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-40.52530054760075s"></animate>
-    </circle><circle cx="296.65916756543936" cy="80.92354614012416" r="0" fill="none" stroke="#12813a" stroke-width="8">
-      <animate attributeName="r" values="0;47.03611543920749" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-40.52530054760075s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="16.666666666666668s" begin="-40.52530054760075s"></animate>
-    </circle><circle cx="158.9398261520183" cy="96.5683673937937" r="0" fill="none" stroke="#12813a" stroke-width="8">
-      <animate attributeName="r" values="0;9.89977495248037" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-2.5412705195820062s"></animate>
-      <animate attributeName="opacity" values="1;0" keyTimes="0;1" calcMode="spline" repeatCount="indefinite" keySplines="0 0.5 0.5 1" dur="12.5s" begin="-2.5412705195820062s"></animate>
-    </circle></g>
-      </pattern>
-    </defs>
-    <rect x="0" y="0" width="1084" height="322" fill="url(#pid-0.2950529742247572)"></rect>
-    </svg>
+﻿<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  style="margin:auto;background:rgba(NaN, NaN, NaN, 0);display:block;z-index:1;position:relative"
+  width="1084" height="322" preserveAspectRatio="xMidYMid" viewBox="0 0 1084 322">
+  <defs>
+    <pattern id="pid-0.7735807359934106" x="0" y="0" width="345.6" height="345.6"
+      patternUnits="userSpaceOnUse">
+      <g transform="scale(1.35)">
+        <g>
+          <line x1="237.6288884328494" x2="201.39714008747956" y1="119.05338354492488"
+            y2="155.28513189029474" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="237.6288884328494" x2="201.39714008747956" y1="-392.9466164550751"
+            y2="-356.71486810970526" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="493.6288884328494" x2="457.39714008747956" y1="-392.9466164550751"
+            y2="-356.71486810970526" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="749.6288884328494" x2="713.3971400874796" y1="-392.9466164550751"
+            y2="-356.71486810970526" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="237.6288884328494" x2="201.39714008747956" y1="-136.94661645507512"
+            y2="-100.71486810970526" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="493.6288884328494" x2="457.39714008747956" y1="-136.94661645507512"
+            y2="-100.71486810970526" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="749.6288884328494" x2="713.3971400874796" y1="-136.94661645507512"
+            y2="-100.71486810970526" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="237.6288884328494" x2="201.39714008747956" y1="119.05338354492488"
+            y2="155.28513189029474" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="493.6288884328494" x2="457.39714008747956" y1="119.05338354492488"
+            y2="155.28513189029474" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="749.6288884328494" x2="713.3971400874796" y1="119.05338354492488"
+            y2="155.28513189029474" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="244.43797352167968" x2="179.25167385613412" y1="196.21419032492787"
+            y2="261.40048999047343" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="244.43797352167968" x2="179.25167385613412" y1="-315.78580967507213"
+            y2="-250.59951000952657" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="500.4379735216797" x2="435.2516738561341" y1="-315.78580967507213"
+            y2="-250.59951000952657" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="756.4379735216796" x2="691.2516738561342" y1="-315.78580967507213"
+            y2="-250.59951000952657" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="244.43797352167968" x2="179.25167385613412" y1="-59.78580967507213"
+            y2="5.400489990473432" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="500.4379735216797" x2="435.2516738561341" y1="-59.78580967507213"
+            y2="5.400489990473432" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="756.4379735216796" x2="691.2516738561342" y1="-59.78580967507213"
+            y2="5.400489990473432" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="244.43797352167968" x2="179.25167385613412" y1="196.21419032492787"
+            y2="261.40048999047343" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="500.4379735216797" x2="435.2516738561341" y1="196.21419032492787"
+            y2="261.40048999047343" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="756.4379735216796" x2="691.2516738561342" y1="196.21419032492787"
+            y2="261.40048999047343" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="219.6724359102308" x2="209.2181431749452" y1="92.85808081141191"
+            y2="103.31237354669749" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="219.6724359102308" x2="209.2181431749452" y1="-419.1419191885881"
+            y2="-408.6876264533025" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="475.6724359102308" x2="465.2181431749452" y1="-419.1419191885881"
+            y2="-408.6876264533025" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="731.6724359102308" x2="721.2181431749452" y1="-419.1419191885881"
+            y2="-408.6876264533025" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="219.6724359102308" x2="209.2181431749452" y1="-163.14191918858808"
+            y2="-152.68762645330253" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="475.6724359102308" x2="465.2181431749452" y1="-163.14191918858808"
+            y2="-152.68762645330253" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="731.6724359102308" x2="721.2181431749452" y1="-163.14191918858808"
+            y2="-152.68762645330253" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="219.6724359102308" x2="209.2181431749452" y1="92.85808081141191"
+            y2="103.31237354669749" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="475.6724359102308" x2="465.2181431749452" y1="92.85808081141191"
+            y2="103.31237354669749" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="731.6724359102308" x2="721.2181431749452" y1="92.85808081141191"
+            y2="103.31237354669749" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="112.00565118011832" x2="71.15817744773324" y1="56.63419812919665"
+            y2="97.48167186158173" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="112.00565118011832" x2="71.15817744773324" y1="-455.36580187080335"
+            y2="-414.51832813841827" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="368.0056511801183" x2="327.15817744773324" y1="-455.36580187080335"
+            y2="-414.51832813841827" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="624.0056511801183" x2="583.1581774477332" y1="-455.36580187080335"
+            y2="-414.51832813841827" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="112.00565118011832" x2="71.15817744773324" y1="-199.36580187080335"
+            y2="-158.51832813841827" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="368.0056511801183" x2="327.15817744773324" y1="-199.36580187080335"
+            y2="-158.51832813841827" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="624.0056511801183" x2="583.1581774477332" y1="-199.36580187080335"
+            y2="-158.51832813841827" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="112.00565118011832" x2="71.15817744773324" y1="56.63419812919665"
+            y2="97.48167186158173" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="368.0056511801183" x2="327.15817744773324" y1="56.63419812919665"
+            y2="97.48167186158173" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="624.0056511801183" x2="583.1581774477332" y1="56.63419812919665"
+            y2="97.48167186158173" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="60.932966336476014" x2="49.388821076756514" y1="125.65681060957188"
+            y2="137.20095586929136" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="60.932966336476014" x2="49.388821076756514" y1="-386.3431893904281"
+            y2="-374.79904413070864" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="316.932966336476" x2="305.3888210767565" y1="-386.3431893904281"
+            y2="-374.79904413070864" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="572.932966336476" x2="561.3888210767565" y1="-386.3431893904281"
+            y2="-374.79904413070864" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="60.932966336476014" x2="49.388821076756514" y1="-130.3431893904281"
+            y2="-118.79904413070864" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="316.932966336476" x2="305.3888210767565" y1="-130.3431893904281"
+            y2="-118.79904413070864" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="572.932966336476" x2="561.3888210767565" y1="-130.3431893904281"
+            y2="-118.79904413070864" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="60.932966336476014" x2="49.388821076756514" y1="125.65681060957188"
+            y2="137.20095586929136" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="316.932966336476" x2="305.3888210767565" y1="125.65681060957188"
+            y2="137.20095586929136" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="572.932966336476" x2="561.3888210767565" y1="125.65681060957188"
+            y2="137.20095586929136" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="103.78310212459807" x2="35.08486945593138" y1="-2.328164446496814"
+            y2="66.37006822216988" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="103.78310212459807" x2="35.08486945593138" y1="-514.3281644464968"
+            y2="-445.6299317778301" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="359.7831021245981" x2="291.08486945593137" y1="-514.3281644464968"
+            y2="-445.6299317778301" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="615.783102124598" x2="547.0848694559314" y1="-514.3281644464968"
+            y2="-445.6299317778301" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="103.78310212459807" x2="35.08486945593138" y1="-258.3281644464968"
+            y2="-189.6299317778301" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="359.7831021245981" x2="291.08486945593137" y1="-258.3281644464968"
+            y2="-189.6299317778301" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="615.783102124598" x2="547.0848694559314" y1="-258.3281644464968"
+            y2="-189.6299317778301" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="103.78310212459807" x2="35.08486945593138" y1="-2.328164446496814"
+            y2="66.37006822216988" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="359.7831021245981" x2="291.08486945593137" y1="-2.328164446496814"
+            y2="66.37006822216988" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="615.783102124598" x2="547.0848694559314" y1="-2.328164446496814"
+            y2="66.37006822216988" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="103.78310212459807" x2="35.08486945593138" y1="253.67183555350317"
+            y2="322.3700682221699" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="211.69894364075495" x2="194.13528259328754" y1="166.21741462144607"
+            y2="183.78107566891347" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="211.69894364075495" x2="194.13528259328754" y1="-345.7825853785539"
+            y2="-328.21892433108655" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="467.6989436407549" x2="450.13528259328757" y1="-345.7825853785539"
+            y2="-328.21892433108655" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="723.6989436407549" x2="706.1352825932876" y1="-345.7825853785539"
+            y2="-328.21892433108655" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="211.69894364075495" x2="194.13528259328754" y1="-89.78258537855393"
+            y2="-72.21892433108653" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="467.6989436407549" x2="450.13528259328757" y1="-89.78258537855393"
+            y2="-72.21892433108653" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="723.6989436407549" x2="706.1352825932876" y1="-89.78258537855393"
+            y2="-72.21892433108653" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="211.69894364075495" x2="194.13528259328754" y1="166.21741462144607"
+            y2="183.78107566891347" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="467.6989436407549" x2="450.13528259328757" y1="166.21741462144607"
+            y2="183.78107566891347" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="723.6989436407549" x2="706.1352825932876" y1="166.21741462144607"
+            y2="183.78107566891347" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="44.012515207413756" x2="6.2920050630466875" y1="153.79537767995515"
+            y2="191.5158878243222" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="44.012515207413756" x2="6.2920050630466875" y1="-358.20462232004485"
+            y2="-320.4841121756778" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="300.01251520741374" x2="262.2920050630467" y1="-358.20462232004485"
+            y2="-320.4841121756778" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="556.0125152074138" x2="518.2920050630466" y1="-358.20462232004485"
+            y2="-320.4841121756778" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="44.012515207413756" x2="6.2920050630466875" y1="-102.20462232004485"
+            y2="-64.48411217567781" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="300.01251520741374" x2="262.2920050630467" y1="-102.20462232004485"
+            y2="-64.48411217567781" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="556.0125152074138" x2="518.2920050630466" y1="-102.20462232004485"
+            y2="-64.48411217567781" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="44.012515207413756" x2="6.2920050630466875" y1="153.79537767995515"
+            y2="191.5158878243222" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="300.01251520741374" x2="262.2920050630467" y1="153.79537767995515"
+            y2="191.5158878243222" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="556.0125152074138" x2="518.2920050630466" y1="153.79537767995515"
+            y2="191.5158878243222" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="105.49237048043514" x2="31.549625942354083" y1="123.41684480916788"
+            y2="197.35958934724894" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="105.49237048043514" x2="31.549625942354083" y1="-388.58315519083214"
+            y2="-314.64041065275103" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="361.49237048043517" x2="287.54962594235406" y1="-388.58315519083214"
+            y2="-314.64041065275103" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="617.4923704804352" x2="543.549625942354" y1="-388.58315519083214"
+            y2="-314.64041065275103" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="105.49237048043514" x2="31.549625942354083" y1="-132.58315519083212"
+            y2="-58.64041065275106" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="361.49237048043517" x2="287.54962594235406" y1="-132.58315519083212"
+            y2="-58.64041065275106" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="617.4923704804352" x2="543.549625942354" y1="-132.58315519083212"
+            y2="-58.64041065275106" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="105.49237048043514" x2="31.549625942354083" y1="123.41684480916788"
+            y2="197.35958934724894" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="361.49237048043517" x2="287.54962594235406" y1="123.41684480916788"
+            y2="197.35958934724894" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="617.4923704804352" x2="543.549625942354" y1="123.41684480916788"
+            y2="197.35958934724894" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <animateTransform attributeName="transform" type="translate" values="0 0;-256 256"
+            keyTimes="0;1" repeatCount="indefinite" dur="10s"></animateTransform>
+        </g>
+        <g>
+          <line x1="95.73622575770466" x2="50.085335235319484" y1="20.45659654328417"
+            y2="66.10748706566935" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="95.73622575770466" x2="50.085335235319484" y1="-491.54340345671585"
+            y2="-445.8925129343306" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="351.7362257577047" x2="306.08533523531946" y1="-491.54340345671585"
+            y2="-445.8925129343306" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="607.7362257577047" x2="562.0853352353195" y1="-491.54340345671585"
+            y2="-445.8925129343306" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="95.73622575770466" x2="50.085335235319484" y1="-235.54340345671582"
+            y2="-189.89251293433065" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="351.7362257577047" x2="306.08533523531946" y1="-235.54340345671582"
+            y2="-189.89251293433065" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="607.7362257577047" x2="562.0853352353195" y1="-235.54340345671582"
+            y2="-189.89251293433065" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="95.73622575770466" x2="50.085335235319484" y1="20.45659654328417"
+            y2="66.10748706566935" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="351.7362257577047" x2="306.08533523531946" y1="20.45659654328417"
+            y2="66.10748706566935" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="607.7362257577047" x2="562.0853352353195" y1="20.45659654328417"
+            y2="66.10748706566935" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="263.34308373797757" x2="226.59561736370148" y1="112.42933995479353"
+            y2="149.17680632906962" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="263.34308373797757" x2="226.59561736370148" y1="-399.57066004520647"
+            y2="-362.8231936709304" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="519.3430837379776" x2="482.5956173637015" y1="-399.57066004520647"
+            y2="-362.8231936709304" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="775.3430837379776" x2="738.5956173637014" y1="-399.57066004520647"
+            y2="-362.8231936709304" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="263.34308373797757" x2="226.59561736370148" y1="-143.57066004520647"
+            y2="-106.82319367093038" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="519.3430837379776" x2="482.5956173637015" y1="-143.57066004520647"
+            y2="-106.82319367093038" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="775.3430837379776" x2="738.5956173637014" y1="-143.57066004520647"
+            y2="-106.82319367093038" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="263.34308373797757" x2="226.59561736370148" y1="112.42933995479353"
+            y2="149.17680632906962" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="519.3430837379776" x2="482.5956173637015" y1="112.42933995479353"
+            y2="149.17680632906962" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="775.3430837379776" x2="738.5956173637014" y1="112.42933995479353"
+            y2="149.17680632906962" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="7.343083737977565" x2="-29.40438263629852" y1="112.42933995479353"
+            y2="149.17680632906962" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="29.5343611349199" x2="-26.261040392985034" y1="205.16777076655512"
+            y2="260.96317229446004" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="29.5343611349199" x2="-26.261040392985034" y1="-306.8322292334449"
+            y2="-251.03682770553996" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="285.5343611349199" x2="229.73895960701498" y1="-306.8322292334449"
+            y2="-251.03682770553996" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="541.5343611349199" x2="485.738959607015" y1="-306.8322292334449"
+            y2="-251.03682770553996" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="29.5343611349199" x2="-26.261040392985034" y1="-50.83222923344488"
+            y2="4.963172294460037" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="285.5343611349199" x2="229.73895960701498" y1="-50.83222923344488"
+            y2="4.963172294460037" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="541.5343611349199" x2="485.738959607015" y1="-50.83222923344488"
+            y2="4.963172294460037" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="29.5343611349199" x2="-26.261040392985034" y1="205.16777076655512"
+            y2="260.96317229446004" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="285.5343611349199" x2="229.73895960701498" y1="205.16777076655512"
+            y2="260.96317229446004" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="541.5343611349199" x2="485.738959607015" y1="205.16777076655512"
+            y2="260.96317229446004" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="235.025028503587" x2="173.48946106938683" y1="23.306929884424335"
+            y2="84.84249731862451" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="235.025028503587" x2="173.48946106938683" y1="-488.69307011557567"
+            y2="-427.1575026813755" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="491.025028503587" x2="429.48946106938683" y1="-488.69307011557567"
+            y2="-427.1575026813755" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="747.025028503587" x2="685.4894610693868" y1="-488.69307011557567"
+            y2="-427.1575026813755" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="235.025028503587" x2="173.48946106938683" y1="-232.69307011557567"
+            y2="-171.1575026813755" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="491.025028503587" x2="429.48946106938683" y1="-232.69307011557567"
+            y2="-171.1575026813755" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="747.025028503587" x2="685.4894610693868" y1="-232.69307011557567"
+            y2="-171.1575026813755" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="235.025028503587" x2="173.48946106938683" y1="23.306929884424335"
+            y2="84.84249731862451" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="491.025028503587" x2="429.48946106938683" y1="23.306929884424335"
+            y2="84.84249731862451" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="747.025028503587" x2="685.4894610693868" y1="23.306929884424335"
+            y2="84.84249731862451" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="225.00990918130768" x2="200.62370409686488" y1="210.1052181599721"
+            y2="234.4914232444149" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="225.00990918130768" x2="200.62370409686488" y1="-301.8947818400279"
+            y2="-277.50857675558507" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="481.00990918130765" x2="456.6237040968649" y1="-301.8947818400279"
+            y2="-277.50857675558507" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="737.0099091813076" x2="712.6237040968649" y1="-301.8947818400279"
+            y2="-277.50857675558507" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="225.00990918130768" x2="200.62370409686488" y1="-45.89478184002789"
+            y2="-21.508576755585096" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="481.00990918130765" x2="456.6237040968649" y1="-45.89478184002789"
+            y2="-21.508576755585096" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="737.0099091813076" x2="712.6237040968649" y1="-45.89478184002789"
+            y2="-21.508576755585096" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="225.00990918130768" x2="200.62370409686488" y1="210.1052181599721"
+            y2="234.4914232444149" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="481.00990918130765" x2="456.6237040968649" y1="210.1052181599721"
+            y2="234.4914232444149" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="737.0099091813076" x2="712.6237040968649" y1="210.1052181599721"
+            y2="234.4914232444149" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="171.55017713954658" x2="102.05334080042758" y1="78.55895711807653"
+            y2="148.05579345719553" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="171.55017713954658" x2="102.05334080042758" y1="-433.44104288192347"
+            y2="-363.94420654280447" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="427.5501771395466" x2="358.0533408004276" y1="-433.44104288192347"
+            y2="-363.94420654280447" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="683.5501771395466" x2="614.0533408004276" y1="-433.44104288192347"
+            y2="-363.94420654280447" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="171.55017713954658" x2="102.05334080042758" y1="-177.44104288192347"
+            y2="-107.94420654280447" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="427.5501771395466" x2="358.0533408004276" y1="-177.44104288192347"
+            y2="-107.94420654280447" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="683.5501771395466" x2="614.0533408004276" y1="-177.44104288192347"
+            y2="-107.94420654280447" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="171.55017713954658" x2="102.05334080042758" y1="78.55895711807653"
+            y2="148.05579345719553" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="427.5501771395466" x2="358.0533408004276" y1="78.55895711807653"
+            y2="148.05579345719553" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="683.5501771395466" x2="614.0533408004276" y1="78.55895711807653"
+            y2="148.05579345719553" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="258.4358284744095" x2="228.09906783279462" y1="10.646186924515469"
+            y2="40.98294756613034" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="258.4358284744095" x2="228.09906783279462" y1="-501.35381307548454"
+            y2="-471.01705243386965" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="514.4358284744095" x2="484.0990678327946" y1="-501.35381307548454"
+            y2="-471.01705243386965" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="770.4358284744095" x2="740.0990678327946" y1="-501.35381307548454"
+            y2="-471.01705243386965" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="258.4358284744095" x2="228.09906783279462" y1="-245.35381307548454"
+            y2="-215.01705243386965" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="514.4358284744095" x2="484.0990678327946" y1="-245.35381307548454"
+            y2="-215.01705243386965" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="770.4358284744095" x2="740.0990678327946" y1="-245.35381307548454"
+            y2="-215.01705243386965" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="258.4358284744095" x2="228.09906783279462" y1="10.646186924515469"
+            y2="40.98294756613034" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="514.4358284744095" x2="484.0990678327946" y1="10.646186924515469"
+            y2="40.98294756613034" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="770.4358284744095" x2="740.0990678327946" y1="10.646186924515469"
+            y2="40.98294756613034" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="2.4358284744095045" x2="-27.900932167205383" y1="10.646186924515469"
+            y2="40.98294756613034" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="35.41624886616098" x2="-5.966808810922494" y1="10.151780697595989"
+            y2="51.53483837467946" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="35.41624886616098" x2="-5.966808810922494" y1="-501.848219302404"
+            y2="-460.46516162532055" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="291.41624886616097" x2="250.0331911890775" y1="-501.848219302404"
+            y2="-460.46516162532055" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="547.416248866161" x2="506.0331911890775" y1="-501.848219302404"
+            y2="-460.46516162532055" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="35.41624886616098" x2="-5.966808810922494" y1="-245.848219302404"
+            y2="-204.46516162532055" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="291.41624886616097" x2="250.0331911890775" y1="-245.848219302404"
+            y2="-204.46516162532055" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="547.416248866161" x2="506.0331911890775" y1="-245.848219302404"
+            y2="-204.46516162532055" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="35.41624886616098" x2="-5.966808810922494" y1="10.151780697595989"
+            y2="51.53483837467946" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="291.41624886616097" x2="250.0331911890775" y1="10.151780697595989"
+            y2="51.53483837467946" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="547.416248866161" x2="506.0331911890775" y1="10.151780697595989"
+            y2="51.53483837467946" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="90.76285286976488" x2="72.92514980496989" y1="79.79001478147771"
+            y2="97.6277178462727" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="90.76285286976488" x2="72.92514980496989" y1="-432.2099852185223"
+            y2="-414.37228215372727" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="346.76285286976486" x2="328.9251498049699" y1="-432.2099852185223"
+            y2="-414.37228215372727" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="602.7628528697649" x2="584.9251498049699" y1="-432.2099852185223"
+            y2="-414.37228215372727" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="90.76285286976488" x2="72.92514980496989" y1="-176.2099852185223"
+            y2="-158.3722821537273" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="346.76285286976486" x2="328.9251498049699" y1="-176.2099852185223"
+            y2="-158.3722821537273" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="602.7628528697649" x2="584.9251498049699" y1="-176.2099852185223"
+            y2="-158.3722821537273" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="90.76285286976488" x2="72.92514980496989" y1="79.79001478147771"
+            y2="97.6277178462727" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="346.76285286976486" x2="328.9251498049699" y1="79.79001478147771"
+            y2="97.6277178462727" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="602.7628528697649" x2="584.9251498049699" y1="79.79001478147771"
+            y2="97.6277178462727" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <animateTransform attributeName="transform" type="translate" values="0 0;-256 256"
+            keyTimes="0;1" repeatCount="indefinite" dur="5s"></animateTransform>
+        </g>
+        <g>
+          <line x1="93.6896305353637" x2="75.71575147590588" y1="83.83758835275793"
+            y2="101.81146741221576" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="93.6896305353637" x2="75.71575147590588" y1="-428.16241164724204"
+            y2="-410.18853258778427" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="349.6896305353637" x2="331.7157514759059" y1="-428.16241164724204"
+            y2="-410.18853258778427" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="605.6896305353637" x2="587.7157514759059" y1="-428.16241164724204"
+            y2="-410.18853258778427" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="93.6896305353637" x2="75.71575147590588" y1="-172.16241164724207"
+            y2="-154.18853258778424" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="349.6896305353637" x2="331.7157514759059" y1="-172.16241164724207"
+            y2="-154.18853258778424" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="605.6896305353637" x2="587.7157514759059" y1="-172.16241164724207"
+            y2="-154.18853258778424" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="93.6896305353637" x2="75.71575147590588" y1="83.83758835275793"
+            y2="101.81146741221576" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="349.6896305353637" x2="331.7157514759059" y1="83.83758835275793"
+            y2="101.81146741221576" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="605.6896305353637" x2="587.7157514759059" y1="83.83758835275793"
+            y2="101.81146741221576" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="207.24941141296466" x2="167.48134532138562" y1="234.55973050121918"
+            y2="274.3277965927982" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="207.24941141296466" x2="167.48134532138562" y1="-277.4402694987808"
+            y2="-237.67220340720178" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="463.24941141296466" x2="423.4813453213856" y1="-277.4402694987808"
+            y2="-237.67220340720178" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="719.2494114129647" x2="679.4813453213856" y1="-277.4402694987808"
+            y2="-237.67220340720178" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="207.24941141296466" x2="167.48134532138562" y1="-21.440269498780822"
+            y2="18.327796592798222" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="463.24941141296466" x2="423.4813453213856" y1="-21.440269498780822"
+            y2="18.327796592798222" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="719.2494114129647" x2="679.4813453213856" y1="-21.440269498780822"
+            y2="18.327796592798222" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="207.24941141296466" x2="167.48134532138562" y1="234.55973050121918"
+            y2="274.3277965927982" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="463.24941141296466" x2="423.4813453213856" y1="234.55973050121918"
+            y2="274.3277965927982" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="719.2494114129647" x2="679.4813453213856" y1="234.55973050121918"
+            y2="274.3277965927982" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="69.19671201083756" x2="20.15599089926107" y1="61.52941038272999"
+            y2="110.57013149430648" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="69.19671201083756" x2="20.15599089926107" y1="-450.47058961727"
+            y2="-401.42986850569355" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="325.1967120108376" x2="276.15599089926104" y1="-450.47058961727"
+            y2="-401.42986850569355" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="581.1967120108376" x2="532.155990899261" y1="-450.47058961727"
+            y2="-401.42986850569355" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="69.19671201083756" x2="20.15599089926107" y1="-194.47058961727"
+            y2="-145.42986850569352" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="325.1967120108376" x2="276.15599089926104" y1="-194.47058961727"
+            y2="-145.42986850569352" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="581.1967120108376" x2="532.155990899261" y1="-194.47058961727"
+            y2="-145.42986850569352" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="69.19671201083756" x2="20.15599089926107" y1="61.52941038272999"
+            y2="110.57013149430648" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="325.1967120108376" x2="276.15599089926104" y1="61.52941038272999"
+            y2="110.57013149430648" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="581.1967120108376" x2="532.155990899261" y1="61.52941038272999"
+            y2="110.57013149430648" stroke-width="15" stroke="#1ed760" stroke-linecap="round"></line>
+          <line x1="153.36870174443493" x2="103.52218176454608" y1="129.93915864820679"
+            y2="179.78567862809564" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="153.36870174443493" x2="103.52218176454608" y1="-382.0608413517932"
+            y2="-332.21432137190436" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="409.36870174443493" x2="359.5221817645461" y1="-382.0608413517932"
+            y2="-332.21432137190436" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="665.3687017444349" x2="615.5221817645461" y1="-382.0608413517932"
+            y2="-332.21432137190436" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="153.36870174443493" x2="103.52218176454608" y1="-126.06084135179321"
+            y2="-76.21432137190436" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="409.36870174443493" x2="359.5221817645461" y1="-126.06084135179321"
+            y2="-76.21432137190436" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="665.3687017444349" x2="615.5221817645461" y1="-126.06084135179321"
+            y2="-76.21432137190436" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="153.36870174443493" x2="103.52218176454608" y1="129.93915864820679"
+            y2="179.78567862809564" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="409.36870174443493" x2="359.5221817645461" y1="129.93915864820679"
+            y2="179.78567862809564" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="665.3687017444349" x2="615.5221817645461" y1="129.93915864820679"
+            y2="179.78567862809564" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="49.20494471467643" x2="2.7142059537850685" y1="141.75997600855746"
+            y2="188.25071476944882" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="49.20494471467643" x2="2.7142059537850685" y1="-370.2400239914425"
+            y2="-323.7492852305512" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="305.20494471467646" x2="258.71420595378504" y1="-370.2400239914425"
+            y2="-323.7492852305512" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="561.2049447146765" x2="514.714205953785" y1="-370.2400239914425"
+            y2="-323.7492852305512" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="49.20494471467643" x2="2.7142059537850685" y1="-114.24002399144254"
+            y2="-67.74928523055118" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="305.20494471467646" x2="258.71420595378504" y1="-114.24002399144254"
+            y2="-67.74928523055118" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="561.2049447146765" x2="514.714205953785" y1="-114.24002399144254"
+            y2="-67.74928523055118" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="49.20494471467643" x2="2.7142059537850685" y1="141.75997600855746"
+            y2="188.25071476944882" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="305.20494471467646" x2="258.71420595378504" y1="141.75997600855746"
+            y2="188.25071476944882" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="561.2049447146765" x2="514.714205953785" y1="141.75997600855746"
+            y2="188.25071476944882" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="84.6808460539986" x2="32.68305955000314" y1="-7.711036017440037"
+            y2="44.28675048655542" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="84.6808460539986" x2="32.68305955000314" y1="-519.71103601744"
+            y2="-467.71324951344457" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="340.6808460539986" x2="288.6830595500031" y1="-519.71103601744"
+            y2="-467.71324951344457" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="596.6808460539986" x2="544.6830595500031" y1="-519.71103601744"
+            y2="-467.71324951344457" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="84.6808460539986" x2="32.68305955000314" y1="-263.71103601744005"
+            y2="-211.71324951344457" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="340.6808460539986" x2="288.6830595500031" y1="-263.71103601744005"
+            y2="-211.71324951344457" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="596.6808460539986" x2="544.6830595500031" y1="-263.71103601744005"
+            y2="-211.71324951344457" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="84.6808460539986" x2="32.68305955000314" y1="-7.711036017440037"
+            y2="44.28675048655542" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="340.6808460539986" x2="288.6830595500031" y1="-7.711036017440037"
+            y2="44.28675048655542" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="596.6808460539986" x2="544.6830595500031" y1="-7.711036017440037"
+            y2="44.28675048655542" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="84.6808460539986" x2="32.68305955000314" y1="248.28896398255995"
+            y2="300.28675048655543" stroke-width="15" stroke="#12813a" stroke-linecap="round"></line>
+          <line x1="225.38342310559023" x2="185.66602314192056" y1="109.68961591653738"
+            y2="149.40701588020704" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="225.38342310559023" x2="185.66602314192056" y1="-402.3103840834626"
+            y2="-362.59298411979296" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="481.3834231055902" x2="441.66602314192056" y1="-402.3103840834626"
+            y2="-362.59298411979296" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="737.3834231055903" x2="697.6660231419205" y1="-402.3103840834626"
+            y2="-362.59298411979296" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="225.38342310559023" x2="185.66602314192056" y1="-146.31038408346262"
+            y2="-106.59298411979296" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="481.3834231055902" x2="441.66602314192056" y1="-146.31038408346262"
+            y2="-106.59298411979296" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="737.3834231055903" x2="697.6660231419205" y1="-146.31038408346262"
+            y2="-106.59298411979296" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="225.38342310559023" x2="185.66602314192056" y1="109.68961591653738"
+            y2="149.40701588020704" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="481.3834231055902" x2="441.66602314192056" y1="109.68961591653738"
+            y2="149.40701588020704" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="737.3834231055903" x2="697.6660231419205" y1="109.68961591653738"
+            y2="149.40701588020704" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="172.83662370669697" x2="103.52581079778793" y1="164.45975635392284"
+            y2="233.77056926283188" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="172.83662370669697" x2="103.52581079778793" y1="-347.54024364607716"
+            y2="-278.2294307371681" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="428.83662370669697" x2="359.5258107977879" y1="-347.54024364607716"
+            y2="-278.2294307371681" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="684.836623706697" x2="615.5258107977879" y1="-347.54024364607716"
+            y2="-278.2294307371681" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="172.83662370669697" x2="103.52581079778793" y1="-91.54024364607716"
+            y2="-22.229430737168116" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="428.83662370669697" x2="359.5258107977879" y1="-91.54024364607716"
+            y2="-22.229430737168116" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="684.836623706697" x2="615.5258107977879" y1="-91.54024364607716"
+            y2="-22.229430737168116" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="172.83662370669697" x2="103.52581079778793" y1="164.45975635392284"
+            y2="233.77056926283188" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="428.83662370669697" x2="359.5258107977879" y1="164.45975635392284"
+            y2="233.77056926283188" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="684.836623706697" x2="615.5258107977879" y1="164.45975635392284"
+            y2="233.77056926283188" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="254.85435949520382" x2="240.10841684705935" y1="-1.209429949430282"
+            y2="13.536512698714214" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="254.85435949520382" x2="240.10841684705935" y1="-513.2094299494303"
+            y2="-498.4634873012858" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="510.8543594952038" x2="496.10841684705935" y1="-513.2094299494303"
+            y2="-498.4634873012858" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="766.8543594952039" x2="752.1084168470593" y1="-513.2094299494303"
+            y2="-498.4634873012858" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="254.85435949520382" x2="240.10841684705935" y1="-257.2094299494303"
+            y2="-242.4634873012858" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="510.8543594952038" x2="496.10841684705935" y1="-257.2094299494303"
+            y2="-242.4634873012858" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="766.8543594952039" x2="752.1084168470593" y1="-257.2094299494303"
+            y2="-242.4634873012858" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="254.85435949520382" x2="240.10841684705935" y1="-1.209429949430282"
+            y2="13.536512698714214" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="510.8543594952038" x2="496.10841684705935" y1="-1.209429949430282"
+            y2="13.536512698714214" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="766.8543594952039" x2="752.1084168470593" y1="-1.209429949430282"
+            y2="13.536512698714214" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <line x1="254.85435949520382" x2="240.10841684705935" y1="254.79057005056973"
+            y2="269.5365126987142" stroke-width="15" stroke="#18ac4d" stroke-linecap="round"></line>
+          <animateTransform attributeName="transform" type="translate" values="0 0;-256 256"
+            keyTimes="0;1" repeatCount="indefinite" dur="10.3333333333333335s"></animateTransform>
+        </g>
+      </g>
+    </pattern>
+  </defs>
+  <rect x="0" y="0" width="1084" height="322" fill="url(#pid-0.7735807359934106)"></rect>
+</svg>

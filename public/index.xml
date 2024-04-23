@@ -1,61 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Coisas de Ícaro</title>
+    <title>Home on Wings</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in Home on Coisas de Ícaro</description>
+    <description>Recent content in Home on Wings</description>
     <generator>Hugo 0.125.2</generator>
     <language>pt-br</language>
-    <lastBuildDate>Sun, 21 Apr 2024 07:12:24 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 23 Apr 2024 10:45:17 -0300</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Mindfulness: Encontrando Paz no Momento Presente</title>
-      <link>http://localhost:1313/notas/nota03/</link>
-      <pubDate>Sun, 21 Apr 2024 07:12:24 -0300</pubDate>
-      <guid>http://localhost:1313/notas/nota03/</guid>
-      <description>Paragrafo 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis varius est ac tortor dictum ornare id non leo. Nam in ex in neque molestie accumsan. Pellentesque sit amet tincidunt ex, eu aliquam turpis. In efficitur lacinia augue hendrerit aliquam. Fusce varius velit non tellus molestie, eget luctus lorem pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget lorem dui. Sed lobortis dui vestibulum fermentum porta. Proin mi justo, condimentum nec risus ut, accumsan vestibulum neque.</description>
+      <title>Custom Thumbnail Example</title>
+      <link>http://localhost:1313/posts/custom-thumbnail-example/</link>
+      <pubDate>Tue, 23 Apr 2024 10:45:17 -0300</pubDate>
+      <guid>http://localhost:1313/posts/custom-thumbnail-example/</guid>
+      <description>Made following the tutorial in the github repository Check it out here.&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tortor ipsum, blandit sed vestibulum id, dictum ac arcu. Maecenas vitae eleifend est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi at tortor dictum, vulputate lacus nec, dictum enim. Nullam pretium a quam eu euismod. Duis rutrum lacus vel varius consequat. Nunc et erat luctus, feugiat urna sit amet, maximus enim.</description>
     </item>
     <item>
-      <title>Veganismo: Uma Escolha de Vida Sustentável</title>
-      <link>http://localhost:1313/notas/nota02/</link>
-      <pubDate>Sun, 21 Apr 2024 07:12:20 -0300</pubDate>
-      <guid>http://localhost:1313/notas/nota02/</guid>
-      <description>Paragrafo 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis varius est ac tortor dictum ornare id non leo. Nam in ex in neque molestie accumsan. Pellentesque sit amet tincidunt ex, eu aliquam turpis. In efficitur lacinia augue hendrerit aliquam. Fusce varius velit non tellus molestie, eget luctus lorem pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget lorem dui. Sed lobortis dui vestibulum fermentum porta. Proin mi justo, condimentum nec risus ut, accumsan vestibulum neque.</description>
-    </item>
-    <item>
-      <title>Viagem Espacial: Explorando Além dos Limites da Terra</title>
-      <link>http://localhost:1313/posts/post04/</link>
-      <pubDate>Sun, 21 Apr 2024 07:12:13 -0300</pubDate>
-      <guid>http://localhost:1313/posts/post04/</guid>
-      <description>Paragrafo 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis varius est ac tortor dictum ornare id non leo. Nam in ex in neque molestie accumsan. Pellentesque sit amet tincidunt ex, eu aliquam turpis. In efficitur lacinia augue hendrerit aliquam. Fusce varius velit non tellus molestie, eget luctus lorem pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget lorem dui. Sed lobortis dui vestibulum fermentum porta. Proin mi justo, condimentum nec risus ut, accumsan vestibulum neque.</description>
-    </item>
-    <item>
-      <title>Inteligência Artificial: Avanços e Desafios</title>
-      <link>http://localhost:1313/posts/post03/</link>
-      <pubDate>Sun, 21 Apr 2024 07:12:10 -0300</pubDate>
-      <guid>http://localhost:1313/posts/post03/</guid>
-      <description>Paragrafo 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis varius est ac tortor dictum ornare id non leo. Nam in ex in neque molestie accumsan. Pellentesque sit amet tincidunt ex, eu aliquam turpis. In efficitur lacinia augue hendrerit aliquam. Fusce varius velit non tellus molestie, eget luctus lorem pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget lorem dui. Sed lobortis dui vestibulum fermentum porta. Proin mi justo, condimentum nec risus ut, accumsan vestibulum neque.</description>
-    </item>
-    <item>
-      <title>Fotografia Analógia: Revivendo a Arte Clássica</title>
-      <link>http://localhost:1313/posts/post02/</link>
-      <pubDate>Sun, 21 Apr 2024 07:12:07 -0300</pubDate>
-      <guid>http://localhost:1313/posts/post02/</guid>
-      <description>Paragrafo 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis varius est ac tortor dictum ornare id non leo. Nam in ex in neque molestie accumsan. Pellentesque sit amet tincidunt ex, eu aliquam turpis. In efficitur lacinia augue hendrerit aliquam. Fusce varius velit non tellus molestie, eget luctus lorem pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget lorem dui. Sed lobortis dui vestibulum fermentum porta. Proin mi justo, condimentum nec risus ut, accumsan vestibulum neque.</description>
-    </item>
-    <item>
-      <title>Primeira nota</title>
-      <link>http://localhost:1313/notas/nota01/</link>
-      <pubDate>Sun, 21 Apr 2024 06:26:55 -0300</pubDate>
-      <guid>http://localhost:1313/notas/nota01/</guid>
-      <description>Paragrafo 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis varius est ac tortor dictum ornare id non leo. Nam in ex in neque molestie accumsan. Pellentesque sit amet tincidunt ex, eu aliquam turpis. In efficitur lacinia augue hendrerit aliquam. Fusce varius velit non tellus molestie, eget luctus lorem pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget lorem dui. Sed lobortis dui vestibulum fermentum porta. Proin mi justo, condimentum nec risus ut, accumsan vestibulum neque.</description>
-    </item>
-    <item>
-      <title>Primeiro post</title>
-      <link>http://localhost:1313/posts/post01/</link>
-      <pubDate>Sun, 21 Apr 2024 06:26:05 -0300</pubDate>
-      <guid>http://localhost:1313/posts/post01/</guid>
-      <description>Paragrafo 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis varius est ac tortor dictum ornare id non leo. Nam in ex in neque molestie accumsan. Pellentesque sit amet tincidunt ex, eu aliquam turpis. In efficitur lacinia augue hendrerit aliquam. Fusce varius velit non tellus molestie, eget luctus lorem pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget lorem dui. Sed lobortis dui vestibulum fermentum porta. Proin mi justo, condimentum nec risus ut, accumsan vestibulum neque.</description>
+      <title>Example</title>
+      <link>http://localhost:1313/posts/example/</link>
+      <pubDate>Tue, 23 Apr 2024 10:43:17 -0300</pubDate>
+      <guid>http://localhost:1313/posts/example/</guid>
+      <description>Example of Markdown Text Paragraphs This is a normal paragraph of text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec nisi velit. Donec vitae arcu nec velit lacinia tempus. Duis non commodo libero. Aenean interdum malesuada ligula, nec sodales ipsum fermentum sit amet.&#xA;Another paragraph here. Nam volutpat neque eget neque ultricies, in feugiat nulla fermentum. Phasellus sed libero ut lorem ultrices accumsan. Integer dapibus, felis nec molestie dapibus, velit justo sollicitudin ex, vel aliquet justo lorem vel nisl.</description>
     </item>
   </channel>
 </rss>

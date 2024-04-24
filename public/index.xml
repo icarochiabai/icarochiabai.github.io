@@ -4,16 +4,16 @@
     <title>Home on Coisas de Ícaro</title>
     <link>http://localhost:1313/</link>
     <description>Recent content in Home on Coisas de Ícaro</description>
-    <generator>Hugo 0.125.2</generator>
+    <generator>Hugo</generator>
     <language>pt-br</language>
-    <lastBuildDate>Tue, 23 Apr 2024 11:35:40 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 24 Apr 2024 17:27:02 -0300</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Exemplo de nota</title>
-      <link>http://localhost:1313/notas/nota-exemplo/</link>
-      <pubDate>Tue, 23 Apr 2024 11:35:40 -0300</pubDate>
-      <guid>http://localhost:1313/notas/nota-exemplo/</guid>
-      <description>Mano, por favor, vai dormir, já são 11:36. Depois você termina isso.</description>
+      <title>Instalando MINIX usando QEMU no ArchLinux</title>
+      <link>http://localhost:1313/notas/minix-qemu/</link>
+      <pubDate>Wed, 24 Apr 2024 17:27:02 -0300</pubDate>
+      <guid>http://localhost:1313/notas/minix-qemu/</guid>
+      <description>Tô fazendo isso por causa da disciplina MC504 - Sistemas Operacionais &amp;#x1f480;&#xA;Instalando pacotes Pacotes necessários:&#xA;qemu-base: responsável por rodar a máquina virtual com MINIX dentro tigervnc: responsável por deixar a gente ver o que tá acontecendo na máquina virtual sudo pacman -Syu qemu-base tigervnc # instala os pacotes necessários Preparando a imagem do MINIX Baixar a imagem. bunzip2 nome_da_imagem # descompacta a imagem em um arquivo .iso Preparando a máquina virtual qemu-img create -f raw nome_da_imagem 10G # cria um espaço de 10G para o QEMU utilizar qemu-system-x86_64 -m 2G -cdrom caminho/pra/iso -boot order=d -drive file=nome_da_imagem,format=raw # boota a máquina com a iso selecionada Agora a mensagem &amp;ldquo;VNC server running on ::1:5900&amp;rdquo; deve aparecer, isso significa que podemos nos conectar à máquina usando um VNC viewer, nesse caso, o tigervnc.</description>
     </item>
     <item>
       <title>Olá, mundo! 👋</title>

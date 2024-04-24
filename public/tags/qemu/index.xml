@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Notas on Coisas de Ícaro</title>
-    <link>http://localhost:1313/notas/</link>
-    <description>Recent content in Notas on Coisas de Ícaro</description>
+    <title>Qemu on Coisas de Ícaro</title>
+    <link>http://localhost:1313/tags/qemu/</link>
+    <description>Recent content in Qemu on Coisas de Ícaro</description>
     <generator>Hugo</generator>
     <language>pt-br</language>
     <lastBuildDate>Wed, 24 Apr 2024 17:27:02 -0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/notas/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/qemu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Instalando MINIX usando QEMU no ArchLinux</title>
       <link>http://localhost:1313/notas/minix-qemu/</link>
       <pubDate>Wed, 24 Apr 2024 17:27:02 -0300</pubDate>
       <guid>http://localhost:1313/notas/minix-qemu/</guid>
       <description>Instalando pacotes To fazendo isso por causa da disciplina MC504 - Sistemas Operacionais. &amp;#x2b50;&#xA;Pacotes necessários:&#xA;qemu-base: responsável por rodar a máquina virtual com MINIX dentro tigervnc: responsável por deixar a gente ver o que tá acontecendo na máquina virtual sudo pacman -Syu qemu-base tigervnc # instala os pacotes necessários Preparando a imagem do MINIX Primeiro baixe a imagem.&#xA;bunzip2 *nome-da-imagem* # descompacta a imagem em um arquivo .iso Preparando a máquina virtual qemu-img create -f raw nome_da_imagem 10G # cria um espaço no disco para o QEMU utilizar qemu-system-x86_64 -m 2G -cdrom caminho/pra/iso -boot order=d -drive file=nome_da_imagem,format=raw # boota a máquina com a iso selecionada Agora a mensagem &amp;ldquo;VNC server running on ::1:5900&amp;rdquo; deve aparecer, isso significa que podemos nos conectar à máquina usando um VNC viewer, nesse caso, o tigervnc.</description>
-    </item>
-    <item>
-      <title>Exemplo de nota</title>
-      <link>http://localhost:1313/notas/nota-exemplo/</link>
-      <pubDate>Tue, 23 Apr 2024 11:35:40 -0300</pubDate>
-      <guid>http://localhost:1313/notas/nota-exemplo/</guid>
-      <description>Mano, por favor, vai dormir, já são 11:36. Depois você termina isso.</description>
     </item>
   </channel>
 </rss>

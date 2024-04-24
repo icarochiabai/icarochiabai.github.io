@@ -2,6 +2,7 @@ baseURL = 'https://example.org/'
 languageCode = 'pt-br'
 title = 'Coisas de Ícaro'
 theme = 'wings'
+enableEmoji = true
 
 # Allows HTML in .md files
 [markup.goldmark.renderer]

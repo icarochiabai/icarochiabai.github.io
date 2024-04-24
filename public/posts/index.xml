@@ -4,7 +4,7 @@
     <title>Posts on Coisas de Ícaro</title>
     <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Coisas de Ícaro</description>
-    <generator>Hugo 0.125.2</generator>
+    <generator>Hugo</generator>
     <language>pt-br</language>
     <lastBuildDate>Tue, 23 Apr 2024 11:20:09 -0300</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
